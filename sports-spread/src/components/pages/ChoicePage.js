@@ -1,13 +1,22 @@
 import React from 'react';
 
-import Choice from '../Choice';
+import Line from '../Line';
+
+import data from '../../_data/gameData';
 
 function ChoicePage(){
+
+    function renderLines(){
+        return data.map((d, index) => {
+            return <Line lineData={d} key={index} />
+        })
+    }
+
     return(
         <div className='choice-page'>
-            <Choice team={'one'} /> 
-            <Choice team={'two'} /> 
-            <Choice team={'three'} /> 
+            <div className='choice-container'>
+                {renderLines()}
+            </div>
         </div>
     );
 }
