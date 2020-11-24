@@ -1,0 +1,60 @@
+.line{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px;
+    .line-container{
+        height: 100%;
+        width: 100%;
+        background-color: #f4f4f49c;
+
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        .teams{
+            width: 25%;
+            height: 100%;
+
+            font-size: 0.9rem;
+        }
+
+        .spread-container{
+            width: 70%;
+            height: 100%;
+
+            .names{
+                width: 100%;
+                height: 25%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                h3{
+                    width: 25%;
+                    font-size: 0.7rem;
+                }
+            }
+
+            .data{
+                width: 100%;
+                height: 75%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                .spread{
+                    width: 25%;
+                    height: 80%;
+                    border-left: 2px solid #333;
+                    p{
+                        font-size: 0.75rem;
+                    }
+
+                    &.selected{
+                        color: rgb(255, 166, 0);
+                    }
+                }
+            }
+        }
+    }
+}

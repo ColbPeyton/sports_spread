@@ -1,4 +1,6 @@
-import react from 'react';
+import React from 'react';
+
+import '../styles/Line.scss';
 
 function Line(props){
     return(
@@ -8,23 +10,38 @@ function Line(props){
                     <p>{props.lineData.team1}</p>
                     <p>{props.lineData.team2}</p>
                 </div>
-                <div className={`spread ${props.choice === 'mgm' ? 'selected' : ''}`}>
+                <div className='spread-container'>
+                    <div className='names'>
                     <h3>Mgm</h3>
-                    <p>{props.lineData.mgm}</p>
-                </div>
-                <div className={`spread ${props.choice === 'bovada' ? 'selected' : ''}`}>
                     <h3>Bovada</h3>
-                    <p>{props.lineData.bovada}</p>
-                </div>
-                <div className={`spread ${props.choice === 'westgate' ? 'selected' : ''}`}>
                     <h3>Westgate</h3>
-                    <p>{props.lineData.westgate}</p>
+                    <h3>W.H.</h3>
+
+                    </div>
+                    <div className='data'>
+                    <div className={`spread ${props.lineData.choice === 'mgm' ? 'selected' : ''}`}>
+                        <p>{props.lineData.mgm[0]}</p>
+                        <p>{props.lineData.mgm[1]}</p>
+                    </div>
+                    <div className={`spread ${props.lineData.choice === 'bovada' ? 'selected' : ''}`}>
+                        <p>{props.lineData.bovada[0]}</p>
+                        <p>{props.lineData.bovada[1]}</p>
+                    </div>
+                    <div className={`spread ${props.lineData.choice === 'westgate' ? 'selected' : ''}`}>
+                        <p>{props.lineData.westgate[0]}</p>
+                        <p>{props.lineData.westgate[1]}</p>
+                    </div>
+                    <div className={`spread ${props.lineData.choice === 'williamHill' ? 'selected' : ''}`}>
+                        <p>{props.lineData.williamHill[0]}</p>
+                        <p>{props.lineData.williamHill[1]}</p>
+                    </div>
+                    </div>
+   
                 </div>
-                <div className={`spread ${props.choice === 'williamHill' ? 'selected' : ''}`}>
-                    <h3>William Hill</h3>
-                    <p>{props.lineData.williamHill}</p>
-                </div>
+
             </div>
         </div>
     )
 }
+
+export default Line;
