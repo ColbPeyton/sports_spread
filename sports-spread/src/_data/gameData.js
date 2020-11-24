@@ -16,7 +16,7 @@ const data = [
         mgm: ['52u-10','60u-10'],
         westgate: ['52u-10','60u-10'],
         williamHill: ['52u-10','60u-10'],
-        choice: 'mgm'
+        choice: 'bovada'
     },
   
     {
@@ -26,7 +26,7 @@ const data = [
         mgm: ['52u-10','60u-10'],
         westgate: ['52u-10','60u-10'],
         williamHill: ['52u-10','60u-10'],
-        choice: 'mgm'
+        choice: 'westgate'
     },
   
     {
@@ -36,7 +36,7 @@ const data = [
         mgm: ['52u-10','60u-10'],
         westgate: ['52u-10','60u-10'],
         williamHill: ['52u-10','60u-10'],
-        choice: 'mgm'
+        choice: 'williamHill'
     },
   
     {

@@ -18,7 +18,7 @@ function ChoicePage(){
     return(
         <div className='choice-page'>
             <div className='title-container'>
-                <h3>record</h3>
+                <h3>Today's Picks</h3>
             </div>
             <div className='choice-container'>
                 {renderLines()}
