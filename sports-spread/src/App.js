@@ -13,6 +13,8 @@ import ChoicePage from './components/pages/ChoicePage';
 import RecordPage from './components/pages/ChoicePage';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
+
 const routes = [
   <NavLink exact className='nav' activeClassName="selected" to="/">Home</NavLink>,
   <NavLink exact className='nav' activeClassName="selected" to="/picks">Picks</NavLink>,
@@ -49,6 +51,7 @@ function App() {
           <Route path='/home' component={HomePage}/>
           <Route path='/' component={HomePage}/>
         </Switch>
+        <Footer width={width} />
       </Router>
     </div>
   );
