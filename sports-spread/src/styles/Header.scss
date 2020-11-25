@@ -77,24 +77,23 @@
 
     
     .header-logo{
+        max-width: 190px;
         height: 100%;
-        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-        transition: all 250ms ease-in-out;
-        
-        .link{            
-            // padding-left: 5px;
-            // max-height: 64px;
-            color: $background-light;
-            text-decoration: none;
-            font-size: 1.25rem;
-            &:visited{
-                color: $background-light;
-            }
+
+        .link{
+            border: none;
+            max-height: $header-small;
+            transition: all 250ms ease-in-out;
             &:hover{
-                color: $light-blue;
+                background-color: $background-overlay;
+            }
+            img{
+                height: auto;
+                max-width: 100%;
+                cursor: pointer;
             }
 
         }
@@ -123,26 +122,9 @@
                 max-width: 34px;
             }
             .header-logo{
-                height: 100%;
-                width: 80%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transition: all 250ms ease-in-out;
-                
-                .link{            
-                    // padding-left: 5px;
-                    // max-height: 64px;
-                    color: $background-light;
-                    text-decoration: none;
-                    font-size: 1.25rem;
-                    &:visited{
-                        color: $background-light;
-                    }
-                    &:hover{
-                        color: $light-blue;
-                    }
-        
+                max-width: 250px;
+                .link{
+                    max-height: $header-med;
                 }
             }
         }
@@ -152,6 +134,9 @@
     
 }
 @media screen and (min-width: 992px){
+   
+}
+@media screen and (min-width: 1200px){
     .header-container{
         height: $header-large;
         .header-dropdown-container{
@@ -162,34 +147,15 @@
                 min-width: 27px;
                 max-width: 34px;
             }
-            .header-logo{
-                height: 100%;
-                width: 80%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                transition: all 250ms ease-in-out;
-                
-                .link{            
-                    // padding-left: 5px;
-                    // max-height: 64px;
-                    color: $background-light;
-                    text-decoration: none;
-                    font-size: 1.25rem;
-                    &:visited{
-                        color: $background-light;
-                    }
-                    &:hover{
-                        color: $light-blue;
-                    }
-        
-                }
-            }
+    
         }
     }
-}
-@media screen and (min-width: 1200px){
-   
+    .header-logo{
+        max-width: 300px;
+        .link{
+            max-height: $header-large;
+        }
+    }
 }
 @media(min-width: 568px) and (max-height: 414px){
    

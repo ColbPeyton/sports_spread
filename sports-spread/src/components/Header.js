@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {NavLink} from "react-router-dom";
 import Sidebar from './Sidebar';
+import logo from '../assets/icons/hoops_horizontal.png';
 
 import '../styles/Header.scss';
 
@@ -41,7 +42,7 @@ function Header(props){
                 </button>
                 <div className='header-logo'>
                     <NavLink exact className='link' to='/'>
-                        <h1>Dr. Hoops</h1>
+                        <img src={logo} alt='Dr. Hoops' />
                     </NavLink> 
                 </div>
             </header>
