@@ -25,7 +25,7 @@
             justify-content: center;
             align-items: center;
             color: #fff;
-            margin: 1rem 0;
+            margin-bottom: 1rem ;
             font-size: 2rem;
             padding: 5px 0;
             background-color: $primary-orange;
@@ -61,15 +61,38 @@
 
 
 @media screen and (min-width: 350px){
-   
+    .choice-page{
+        .choice-page-container{
+            .title-container{
+                font-size: 2.5rem;
+                padding: 10px 0;
+
+            }
+        }
+    }
 }
 @media screen and (min-width: 480px){
-   
+    .choice-page{
+        .choice-page-container{
+            .title-container{
+                font-size: 3rem;
+            }
+        }
+    }
 }
 
 
 @media screen and (min-width: 576px){
-    
+    .choice-page{
+        .choice-page-container{
+            padding-top: $header-med;
+
+            .title-container{
+                font-size: 3.5rem;
+                max-height: 125px;
+            }
+        }
+    }
 }
 @media screen and (min-width: 768px){
     .choice-page{
@@ -77,7 +100,6 @@
             .title-container{
                 height: 25%;
                 width: 100%;
-                margin: 1rem 0;
                 font-size: 4rem;
                 padding: 5px 0;
                 background-color: $primary-orange;

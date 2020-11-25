@@ -113,14 +113,14 @@
             .spread-container{
                 .names{
                     h3{
-                        font-size: 0.85rem;
+                        font-size: 0.9rem;
                     }
                 }
     
                 .data{
                     .spread{
                         p{
-                            font-size: 0.85rem;
+                            font-size: 0.9rem;
                         }
                     }
                 }
@@ -143,14 +143,14 @@
             .spread-container{
                 .names{
                     h3{
-                        font-size: 0.95rem;
+                        font-size: 1rem;
                     }
                 }
     
                 .data{
                     .spread{
                         p{
-                            font-size: 0.95rem;
+                            font-size: 1.1rem;
                         }
                     }
                 }
@@ -174,14 +174,14 @@
             .spread-container{
                 .names{
                     h3{
-                        font-size: 1.1rem;
+                        font-size: 1.2rem;
                     }
                 }
     
                 .data{
                     .spread{
                         p{
-                            font-size: 1.15rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -206,14 +206,14 @@
             .spread-container{
                 .names{
                     h3{
-                        font-size: 0.85rem;
+                        font-size: 1rem;
                     }
                 }
     
                 .data{
                     .spread{
                         p{
-                            font-size: 0.8rem;
+                            font-size: 0.95rem;
                         }
                     }
                 }
@@ -228,7 +228,7 @@
         .line-container{
             .teams{
                 p{
-                    font-size: 0.95rem;
+                    font-size: 1rem;
                     width: 90%;
                 }
             }
@@ -236,14 +236,14 @@
             .spread-container{
                 .names{
                     h3{
-                        font-size: 1rem;
+                        font-size: 1.1rem;
                     }
                 }
     
                 .data{
                     .spread{
                         p{
-                            font-size: 1rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -252,7 +252,34 @@
     }
 }
 @media screen and (min-width: 1200px){
-   
+    .line{
+        height: 100px;
+        width: 95%;
+        .line-container{
+            .teams{
+                p{
+                    font-size: 1rem;
+                    width: 90%;
+                }
+            }
+    
+            .spread-container{
+                .names{
+                    h3{
+                        font-size: 1.1rem;
+                    }
+                }
+    
+                .data{
+                    .spread{
+                        p{
+                            font-size: 1.05rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 @media(min-width: 568px) and (max-height: 414px){
    
