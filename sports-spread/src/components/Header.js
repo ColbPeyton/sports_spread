@@ -40,9 +40,9 @@ function Header(props){
                     <div className='dropdown'></div>
                 </button>
                 <div className='header-logo'>
-                    {/* <NavLink exact className='link' to='/'>
-                        <img src={logo} alt='Home icon'/>
-                    </NavLink>  */}
+                    <NavLink exact className='link' to='/'>
+                        <h1>Dr. Hoops</h1>
+                    </NavLink> 
                 </div>
             </header>
         {renderSidebar()}

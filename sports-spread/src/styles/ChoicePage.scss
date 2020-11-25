@@ -1,45 +1,60 @@
 @import './utils';
+@import './colors';
 
 .choice-page{
-    // margin-top: $header-small;
     width: 100%;
     height: 100%;
     background: url('../assets/images/basketball_med.jpg') no-repeat center/cover;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    overflow: hidden;
-
-    .title-container{
-        height: 25%;
+    .choice-page-container{
+        padding-top: $header-small;
         width: 100%;
+        height: 100%;
+    
         display: flex;
         justify-content: center;
         align-items: center;
-        color: #fff;
-        margin: 0.5rem 0 1rem;
-        font-size: 2.5rem;
+        flex-direction: column;
+    
+        overflow: hidden;
+    
+        .title-container{
+            height: 25%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            margin: 1rem 0;
+            font-size: 2rem;
+            padding: 5px 0;
+            background-color: $primary-orange;
+            max-height: 100px;
+            h3{
+                font-weight: 800;
+                text-transform: uppercase;
+            }
+        }
+        .choice-container{
+            width: 90%;
+    
+            min-height: 400px;
+            max-height: 75vh;
+            // max-height: px;
+            overflow-y: scroll;
+            margin-bottom: 1rem;
+    
+        }
+    
+        .record-container{
+            height: 20%;
+            min-height: 100px;
 
-        max-height: 100px;
-    }
-    .choice-container{
-        height: 60%;
-        width: 90%;
-
-        max-height: 400px;
-        overflow-y: scroll;
-
-    }
-
-    .record-container{
-        height: 20%;
-        width: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
+            width: 100%;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

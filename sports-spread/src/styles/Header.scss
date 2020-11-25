@@ -1,14 +1,15 @@
 @import './utils';
+@import './colors';
 
 .header-container{
     overflow: hidden;
     width: 100vw;
     height: $header-small;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     position: fixed;
-    // background: #fff;
+    background: $background-overlay;
     z-index: 10;
     position: fixed;
     top: 0;
@@ -16,7 +17,13 @@
     transition: all 100ms ease-in-out;
     .header-dropdown-container{
         height: 35%;
+        min-height: 22px;
         width: 15%;
+        position: absolute;
+        background:$background-overlay;
+
+        top: 20px;
+        left: 0;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -29,8 +36,8 @@
             width: 50%;
             min-width: 25px;
             max-width: 32px;
-            border: 2px solid gold;
-            background: gold;
+            border: 2px solid $primary-orange;
+            background: $primary-orange;
             border-radius: 10px;
             transition: all 0.10s;
         }
@@ -70,24 +77,24 @@
 
     
     .header-logo{
-        max-width: 170px;
         height: 100%;
+        width: 80%;
         display: flex;
         justify-content: center;
         align-items: center;
-
-        .link{
-            border: none;
-            background-color: #fff;
-            padding-left: 5px;
-            max-height: 64px;
-            &:hover{
-                background-color: #fff;
+        transition: all 250ms ease-in-out;
+        
+        .link{            
+            // padding-left: 5px;
+            // max-height: 64px;
+            color: $background-light;
+            text-decoration: none;
+            font-size: 1.25rem;
+            &:visited{
+                color: $background-light;
             }
-            img{
-                height: auto;
-                max-width: 100%;
-                cursor: pointer;
+            &:hover{
+                color: $light-blue;
             }
 
         }

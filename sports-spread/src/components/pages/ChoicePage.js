@@ -17,16 +17,19 @@ function ChoicePage(){
 
     return(
         <div className='choice-page'>
-            <div className='title-container'>
-                <h3>Today's Picks</h3>
-            </div>
-            <div className='choice-container'>
-                {renderLines()}
-            </div>
+            <div className='choice-page-container'>
+                <div className='title-container'>
+                    <h3>Today's Picks</h3>
+                </div>
+                <div className='choice-container'>
+                    {renderLines()}
+                </div>
 
-            <div className='record-container'>
-                <h3>record</h3>
+                {/* <div className='record-container'>
+                    <h3>record</h3>
+                </div> */}
             </div>
+            
         </div>
     );
 }
