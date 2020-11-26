@@ -34,9 +34,9 @@
                 // padding: 2px 0;
                 max-height: 45%;
                 overflow-y: auto;
-                padding-bottom: 3px;
+                padding-bottom: 5px;
                 &:last-child{
-                    padding: 3px 0px 0px;
+                    padding: 5px 0px 0px;
                     border: none;
                 }
             }
@@ -239,23 +239,23 @@
                 min-width: 185px;
                 max-width: 185px;
                 p{
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                 }
             }
     
             .spread-container{
                 .names{    
                     h3{
-                        min-width: 160px;
-                        font-size: 1.4rem;
+                        min-width: 150px;
+                        font-size: 1.2rem;
                     }
                 }
     
                 .data{
                     .spread{
-                        min-width: 160px;
+                        min-width: 150px;
                         p{
-                            font-size: 1.6rem;
+                            font-size: 1.3rem;
                         }
                     }
                 }
@@ -283,13 +283,45 @@
                 .names{    
                     h3{
                         min-width: 115px;
-                        font-size: 0.85rem;
+                        font-size: 1rem;
                     }
                 }
     
                 .data{
                     .spread{
                         min-width: 115px;
+                        p{
+                            font-size: 1.1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: 1200px){
+    .line{
+        height: 115px;
+        .line-container{
+            .teams{
+                min-width: 175px;
+                max-width: 175px;
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+    
+            .spread-container{
+                .names{    
+                    h3{
+                        min-width: 105px;
+                        font-size: 1rem;
+                    }
+                }
+    
+                .data{
+                    .spread{
+                        min-width: 105px;
                         p{
                             font-size: 1.25rem;
                         }
@@ -299,9 +331,36 @@
         }
     }
 }
-@media screen and (min-width: 1200px){
-}
 @media(min-width: 568px) and (max-height: 414px){
-   
+    .line{
+        height: 110px;
+        .line-container{
+            .teams{
+                min-width: 150px;
+                max-width: 150px;
+                p{
+                    font-size: 0.85rem;
+                }
+            }
+    
+            .spread-container{
+                .names{    
+                    h3{
+                        min-width: 115px;
+                        font-size: 1rem;
+                    }
+                }
+    
+                .data{
+                    .spread{
+                        min-width: 115px;
+                        p{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
