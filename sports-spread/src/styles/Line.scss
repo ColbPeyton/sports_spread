@@ -82,6 +82,10 @@
                     justify-content: space-around;
                     align-items: center;
                     flex-direction: column;
+
+                    &:last-child{
+                        border-right: 2px solid $background-overlay;
+                    }
                     p{
                         font-size: 1rem;
                     }
@@ -242,33 +246,33 @@
 }
 @media screen and (min-width: 992px){
     .line{
-        height: 135px;
+        height: 110px;
         width: 100%;
         .line-container{
             height: 100%;
             min-width: 100%;
             max-width: 325px;
             .teams{
-                min-width: 185px;
-                max-width: 185px;
+                min-width: 150px;
+                max-width: 150px;
                 p{
-                    font-size: 1.2rem;
+                    font-size: 0.85rem;
                 }
             }
     
             .spread-container{
                 .names{    
                     h3{
-                        min-width: 160px;
-                        font-size: 1.3rem;
+                        min-width: 115px;
+                        font-size: 0.85rem;
                     }
                 }
     
                 .data{
                     .spread{
-                        min-width: 160px;
+                        min-width: 115px;
                         p{
-                            font-size: 1.5rem;
+                            font-size: 1.25rem;
                         }
                     }
                 }
@@ -277,40 +281,6 @@
     }
 }
 @media screen and (min-width: 1200px){
-    .line{
-        height: 145px;
-        width: 100%;
-        .line-container{
-            height: 100%;
-            min-width: 100%;
-            max-width: 325px;
-            .teams{
-                min-width: 190px;
-                max-width: 185px;
-                p{
-                    font-size: 1.3rem;
-                }
-            }
-    
-            .spread-container{
-                .names{    
-                    h3{
-                        min-width: 165px;
-                        font-size: 1.4rem;
-                    }
-                }
-    
-                .data{
-                    .spread{
-                        min-width: 165px;
-                        p{
-                            font-size: 1.7rem;
-                        }
-                    }
-                }
-            }
-        }
-    }
 }
 @media(min-width: 568px) and (max-height: 414px){
    

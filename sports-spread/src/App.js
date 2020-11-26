@@ -14,6 +14,7 @@ import RecordPage from './components/pages/ChoicePage';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const routes = [
   <NavLink exact className='nav' activeClassName="selected" to="/">Home</NavLink>,
@@ -43,6 +44,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+      <ScrollToTop />
         <Header routes={routes} width={width}/>
 
         <Switch>
