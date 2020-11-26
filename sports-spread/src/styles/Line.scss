@@ -6,28 +6,33 @@
     margin-bottom: 10px;
     .line-container{
         height: 100%;
-        width: 100%;
+        min-width: 100%;
+        max-width: 1200px;
         background-color:$background-light-overlay;
 
 
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
-
+        overflow-x: scroll;
         .teams{
-            width: 20%;
+            align-self: flex-end;
+            width: 25%;
+            min-width: 125px;
+            max-width: 125px;
             height: 75%;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             align-items: center;
             flex-direction: column;
+            padding-bottom: 5px;
             p{
-                font-size: 0.7rem;
-                width: 99%;
+                font-size: 0.75rem;
+                width: 95%;
                 text-transform: uppercase;
                 font-weight: 600;
                 padding: 2px 0;
-                border-bottom: 1px solid $background-overlay;
+                border-bottom: 1px solid $primary-blue;
 
                 &:last-child{
                     border: none;
@@ -39,18 +44,18 @@
         }
 
         .spread-container{
-            width: 75%;
             height: 100%;
             .names{
                 width: 100%;
-                height: 25%;
+
+                height: 30%;
                 display: flex;
-                justify-content: space-between;
-                align-items: flex-end;
+                justify-content: space-around;
+                align-items: center;
 
                 h3{
-                    width: 25%;
-                    font-size: 0.75rem;
+                    min-width: 125px;
+                    font-size: 0.95rem;
 
                     &.selected{
                         color: $primary-orange;
@@ -61,23 +66,24 @@
 
             .data{
                 width: 100%;
-                height: 75%;
+                height: 67%;
                 display: flex;
-                justify-content: space-around;
+                justify-content: center;
                 align-items: center;
                 letter-spacing: 1px;
 
                 .spread{
                     width: 25%;
-                    height: 80%;
+                    min-width: 125px;
+                    height: 100%;
                     border-left: 2px solid $background-overlay;
 
                     display: flex;
-                    justify-content: center;
+                    justify-content: space-around;
                     align-items: center;
                     flex-direction: column;
                     p{
-                        font-size: 0.75rem;
+                        font-size: 1rem;
                     }
 
                     &.selected{
@@ -101,26 +107,29 @@
 
 @media screen and (min-width: 350px){
     .line{
+        height: 110px;
         .line-container{
             .teams{
+                min-width: 150px;
+                max-width: 150px;
                 p{
-                    font-size: 0.85rem;
-                    width: 97%;
-                    padding: 2px 0;
+                    font-size: 0.9rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 0.9rem;
+                        min-width: 125px;
+                        font-size: 1.05rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 125px;
                         p{
-                            font-size: 0.9rem;
+                            font-size: 1.2rem;
                         }
                     }
                 }
@@ -131,26 +140,29 @@
 }
 @media screen and (min-width: 480px){
     .line{
+        height: 115px;
         .line-container{
             .teams{
+                min-width: 175px;
+                max-width: 175px;
                 p{
-                    font-size: 0.9rem;
-                    width: 95%;
-                    padding: 4px 0;
+                    font-size: 1rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 1rem;
+                        min-width: 135px;
+                        font-size: 1.2rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 135px;
                         p{
-                            font-size: 1.1rem;
+                            font-size: 1.3rem;
                         }
                     }
                 }
@@ -162,26 +174,29 @@
 
 @media screen and (min-width: 576px){
     .line{
+        height: 125px;
         .line-container{
             .teams{
+                min-width: 185px;
+                max-width: 185px;
                 p{
-                    font-size: 1rem;
-                    width: 90%;
-                    padding: 5px 0;
+                    font-size: 1.1rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 1.2rem;
+                        min-width: 150px;
+                        font-size: 1.3rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 150px;
                         p{
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                         }
                     }
                 }
@@ -191,29 +206,33 @@
 }
 @media screen and (min-width: 768px){
     .line{
-        height: 100px;
-        width: 95%;
-        margin-bottom: 15px;
+        height: 135px;
+        width: 100%;
         .line-container{
+            height: 100%;
+            min-width: 100%;
+            max-width: 100%;
             .teams{
+                min-width: 185px;
+                max-width: 185px;
                 p{
-                    font-size: 0.8rem;
-                    width: 95%;
-                    padding: 5px 0;
+                    font-size: 1.2rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 1rem;
+                        min-width: 160px;
+                        font-size: 1.4rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 160px;
                         p{
-                            font-size: 0.95rem;
+                            font-size: 1.6rem;
                         }
                     }
                 }
@@ -223,27 +242,33 @@
 }
 @media screen and (min-width: 992px){
     .line{
-        height: 100px;
-        width: 95%;
+        height: 135px;
+        width: 100%;
         .line-container{
+            height: 100%;
+            min-width: 100%;
+            max-width: 325px;
             .teams{
+                min-width: 185px;
+                max-width: 185px;
                 p{
-                    font-size: 1rem;
-                    width: 90%;
+                    font-size: 1.2rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 1.1rem;
+                        min-width: 160px;
+                        font-size: 1.3rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 160px;
                         p{
-                            font-size: 1.2rem;
+                            font-size: 1.5rem;
                         }
                     }
                 }
@@ -253,27 +278,33 @@
 }
 @media screen and (min-width: 1200px){
     .line{
-        height: 100px;
-        width: 95%;
+        height: 145px;
+        width: 100%;
         .line-container{
+            height: 100%;
+            min-width: 100%;
+            max-width: 325px;
             .teams{
+                min-width: 190px;
+                max-width: 185px;
                 p{
-                    font-size: 1rem;
-                    width: 90%;
+                    font-size: 1.3rem;
                 }
             }
     
             .spread-container{
-                .names{
+                .names{    
                     h3{
-                        font-size: 1.1rem;
+                        min-width: 165px;
+                        font-size: 1.4rem;
                     }
                 }
     
                 .data{
                     .spread{
+                        min-width: 165px;
                         p{
-                            font-size: 1.05rem;
+                            font-size: 1.7rem;
                         }
                     }
                 }

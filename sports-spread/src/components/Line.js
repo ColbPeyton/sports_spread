@@ -5,14 +5,14 @@ import '../styles/Line.scss';
 function Line(props){
 
     function renderSpreadNames(){
-        return props.lineData.sites.map(site => {
-            return <h3 className={checkIfPick(site.name, 'name')}>{site.name}</h3>
+        return props.lineData.sites.map((site, index) => {
+            return <h3 className={checkIfPick(site.name, 'name')} key={index}>{site.name}</h3>
         })
     }
     function renderSpreadData(){
-        return props.lineData.sites.map(data => {
+        return props.lineData.sites.map((data, index) => {
             return (
-                <div className={`spread`}>
+                <div className={`spread`} key={index}>
                         <p className={checkIfPick(data.points[0], 'point')}>{addPlus(data.points[0])}</p>
                         <p className={checkIfPick(data.points[1], 'point')}>{addPlus(data.points[1])}</p>
                 </div>

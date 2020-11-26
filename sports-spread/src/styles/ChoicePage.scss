@@ -109,20 +109,37 @@
                     text-transform: uppercase;
                 }
             }
+        }
+    }
+    
+}
+@media screen and (min-width: 992px){
+    .choice-page{
+        .choice-page-container{
+            .title-container{
+                height: 25%;
+                width: 100%;
+                font-size: 4rem;
+                padding: 5px 0;
+                background-color: $primary-orange;
+                max-height: 100px;
+                h3{
+                    font-weight: 800;
+                    text-transform: uppercase;
+                }
+            }
             .choice-container{
+                width: 95%;
                 margin-bottom: 2rem;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
+                column-gap: 1rem;
                 grid-template-rows: auto;
                 justify-items: center;
         
             }
         }
     }
-    
-}
-@media screen and (min-width: 992px){
-   
 }
 @media screen and (min-width: 1200px){
     .choice-page{
@@ -133,9 +150,6 @@
                 font-size: 5rem;
                 padding: 10px 0;
                 max-height: 125px;
-            }
-            .choice-container{    
-                grid-template-columns: repeat(3, 1fr);
             }
         }
     }
