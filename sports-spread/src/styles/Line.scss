@@ -31,15 +31,21 @@
                 width: 95%;
                 text-transform: uppercase;
                 font-weight: 600;
-                padding: 2px 0;
-                border-bottom: 1px solid $primary-blue;
-
+                // padding: 2px 0;
+                max-height: 45%;
+                overflow-y: auto;
+                padding-bottom: 3px;
                 &:last-child{
+                    padding: 3px 0px 0px;
                     border: none;
                 }
             }
 
-
+            .sep{
+                width: 90%;
+                height: 1px;
+                background-color: $background-overlay;
+            }
 
         }
 
@@ -87,12 +93,25 @@
                         border-right: 2px solid $background-overlay;
                     }
                     p{
+                        max-height: 45%;
                         font-size: 1rem;
                     }
 
                     &.selected{
                         color:$primary-orange;
                         font-weight: 700;
+                    }
+
+                    &.none{
+                        border: none;
+                        min-width: 350px;
+                        width: 100%;
+                        text-transform: uppercase;
+                        p{
+                            font-size: 1.75rem;
+                            color: red;
+                            font-weight: 800;
+                        }
                     }
                 }
             }

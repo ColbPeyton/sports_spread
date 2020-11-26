@@ -10,14 +10,23 @@ function Line(props){
         })
     }
     function renderSpreadData(){
-        return props.lineData.sites.map((data, index) => {
+        if(props.lineData.sites.length > 0){
+            return props.lineData.sites.map((data, index) => {
+                return (
+                    <div className={`spread`} key={index}>
+                            <p className={checkIfPick(data.points[0], 'point')}>{addPlus(data.points[0])}</p>
+                            <p className={checkIfPick(data.points[1], 'point')}>{addPlus(data.points[1])}</p>
+                    </div>
+                );
+           })
+        }else{
             return (
-                <div className={`spread`} key={index}>
-                        <p className={checkIfPick(data.points[0], 'point')}>{addPlus(data.points[0])}</p>
-                        <p className={checkIfPick(data.points[1], 'point')}>{addPlus(data.points[1])}</p>
+                <div className={`spread none`}>
+                    <p>No Lines Available</p>
                 </div>
             );
-       })
+        }
+        
     }
 
     function addPlus(num){
@@ -36,6 +45,7 @@ function Line(props){
             <div className='line-container'>
                 <div className='teams'>
                     <p>{props.lineData.team1}</p>
+                    <div className='sep'></div>
                     <p>{props.lineData.team2}</p>
                 </div>
                 <div className='spread-container'>
