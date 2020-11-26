@@ -10,10 +10,9 @@ function Footer(props){
     return(
         <div className='footer'>
             <div className='footer-container'>
-                <ul>
-                    <li>Lorem</li>
-                    <li>Lorem</li>
-                </ul>
+                <div className='social'>
+                   <a href='https://twitter.com/0cp1?lang=en'  target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
+                </div>
                 <div className='dev'>
                     <p>Developed by <a href={dev} target="_blank" rel="noreferrer">ColbPeyton</a></p>
                 </div>

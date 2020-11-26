@@ -19,7 +19,7 @@ import ScrollToTop from './components/ScrollToTop';
 const routes = [
   <NavLink exact className='nav' activeClassName="selected" to="/">Home</NavLink>,
   <NavLink exact className='nav' activeClassName="selected" to="/picks">Picks</NavLink>,
-  <NavLink exact className='nav' activeClassName="selected" to="/record">Record</NavLink>,
+  // <NavLink exact className='nav' activeClassName="selected" to="/record">Record</NavLink>,
 ]
 
 
