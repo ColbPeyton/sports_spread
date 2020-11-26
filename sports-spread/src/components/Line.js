@@ -4,8 +4,30 @@ import '../styles/Line.scss';
 
 function Line(props){
 
-    function selectedChoice(name){
-        return name === props.lineData.choice
+    function renderSpreadNames(){
+        return props.lineData.sites.map(site => {
+            return <h3 className={checkIfPick(site.name, 'name')}>{site.name}</h3>
+        })
+    }
+    function renderSpreadData(){
+        return props.lineData.sites.map(data => {
+            return (
+                <div className={`spread`}>
+                        <p className={checkIfPick(data.points[0], 'point')}>{addPlus(data.points[0])}</p>
+                        <p className={checkIfPick(data.points[1], 'point')}>{addPlus(data.points[1])}</p>
+                </div>
+            );
+       })
+    }
+
+    function addPlus(num){
+        return num > 0 
+        ? `+${num}`
+        : num;
+    }
+
+    function checkIfPick(el, key){
+        return el === props.lineData.choice[key] 
         ? 'selected'
         : '';
     }
@@ -18,29 +40,10 @@ function Line(props){
                 </div>
                 <div className='spread-container'>
                     <div className='names'>
-                    <h3 className={selectedChoice('mgm')}>Mgm</h3>
-                    <h3 className={selectedChoice('bovada')}>Bovada</h3>
-                    <h3 className={selectedChoice('westgate')}>Westgate</h3>
-                    <h3 className={selectedChoice('williamHill')}>W.H.</h3>
-
+                            {renderSpreadNames()}
                     </div>
                     <div className='data'>
-                    <div className={`spread ${selectedChoice('mgm')}`}>
-                        <p>{props.lineData.mgm[0]}</p>
-                        <p>{props.lineData.mgm[1]}</p>
-                    </div>
-                    <div className={`spread ${selectedChoice('bovada')}`}>
-                        <p>{props.lineData.bovada[0]}</p>
-                        <p>{props.lineData.bovada[1]}</p>
-                    </div>
-                    <div className={`spread ${selectedChoice('westgate')}`}>
-                        <p>{props.lineData.westgate[0]}</p>
-                        <p>{props.lineData.westgate[1]}</p>
-                    </div>
-                    <div className={`spread ${selectedChoice('williamHill')}`}>
-                        <p>{props.lineData.williamHill[0]}</p>
-                        <p>{props.lineData.williamHill[1]}</p>
-                    </div>
+                        {renderSpreadData()}
                     </div>
    
                 </div>
