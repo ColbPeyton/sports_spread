@@ -1,17 +1,17 @@
 [
     {
-        "team1": "Bradley Braves",
-        "team2": "Xavier Musketeers",
+        "team1": "Auburn Tigers",
+        "team2": "Gonzaga Bulldogs",
         "sites": [
             {
-                "name": "PointsBet (US)",
+                "name": "DraftKings",
                 "odds": [
-                    1.83,
+                    1.92,
                     1.91
                 ],
                 "points": [
-                    "8.5",
-                    "-8.5"
+                    "17.5",
+                    "-17.5"
                 ]
             },
             {
@@ -21,280 +21,8 @@
                     1.91
                 ],
                 "points": [
-                    "-6.0",
-                    "6.0"
-                ]
-            },
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.83,
-                    1.95
-                ],
-                "points": [
-                    "10.5",
-                    "-10.5"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.75,
-                    1.85
-                ],
-                "points": [
-                    "6.5",
-                    "-6.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.88,
-                    1.89
-                ],
-                "points": [
-                    "7.5",
-                    "-7.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Chicago St Cougars",
-        "team2": "Illinois Fighting Illini",
-        "sites": [
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.53,
-                    2.45
-                ],
-                "points": [
-                    "49.5",
-                    "-49.5"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.75,
-                    1.85
-                ],
-                "points": [
-                    "48.5",
-                    "-48.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.85
-                ],
-                "points": [
-                    "49.0",
-                    "-49.0"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.92,
-                    1.85
-                ],
-                "points": [
-                    "49.0",
-                    "-49.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.85
-                ],
-                "points": [
-                    "49.0",
-                    "-49.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.92,
-                    1.86
-                ],
-                "points": [
-                    "49.0",
-                    "-49.0"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.91,
-                    1.83
-                ],
-                "points": [
-                    "45.5",
-                    "-45.5"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.95,
-                    1.87
-                ],
-                "points": [
-                    "-17.0",
-                    "17.0"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Memphis Tigers",
-        "team2": "Western Kentucky Hilltoppers",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.93
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.87
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.92,
-                    1.87
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.87
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "2.5",
-                    "-2.5"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Gonzaga Bulldogs",
-        "team2": "Kansas Jayhawks",
-        "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.94,
-                    1.94
-                ],
-                "points": [
-                    "-4",
-                    "4"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.93
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.89
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.93
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
+                    "18.0",
+                    "-18.0"
                 ]
             },
             {
@@ -304,75 +32,74 @@
                     1.92
                 ],
                 "points": [
-                    "-4",
-                    "4"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.89,
-                    1.93
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-4.0",
-                    "4.0"
+                    "17.5",
+                    "-17.5"
                 ]
             },
             {
                 "name": "BetMGM",
                 "odds": [
-                    1.83,
-                    2
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "-3.5",
-                    "3.5"
+                    "18.5",
+                    "-18.5"
                 ]
             },
             {
                 "name": "MyBookie.ag",
                 "odds": [
-                    1.95,
-                    1.87
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "-4.0",
-                    "4.0"
+                    "18.0",
+                    "-18.0"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "Bovada",
+            "point": 18.0
         }
     },
     {
-        "team1": "Austin Peay Governors",
-        "team2": "East Tennessee St Buccaneers",
+        "team1": "East Tennessee St Buccaneers",
+        "team2": "Middle Tennessee Blue Raiders",
         "sites": [
             {
-                "name": "BetRivers",
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.89
+                ],
+                "points": [
+                    "-1.0",
+                    "1.0"
+                ]
+            },
+            {
+                "name": "Bovada",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "-9.5",
-                    "9.5"
+                    "-1.5",
+                    "1.5"
                 ]
-            },
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": 1.5
+        }
+    },
+    {
+        "team1": "San Francisco Dons",
+        "team2": "Virginia Cavaliers",
+        "sites": [
             {
                 "name": "DraftKings",
                 "odds": [
@@ -380,26 +107,69 @@
                     1.91
                 ],
                 "points": [
-                    "-9.5",
-                    "9.5"
+                    "15.5",
+                    "-15.5"
                 ]
             },
             {
-                "name": "Unibet",
+                "name": "GTbets",
                 "odds": [
-                    1.87,
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "15.5",
+                    "-15.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.95,
                     1.87
                 ],
                 "points": [
-                    "-9.5",
-                    "9.5"
+                    "15.0",
+                    "-15.0"
                 ]
             },
             {
-                "name": "SugarHouse",
+                "name": "MyBookie.ag",
                 "odds": [
                     1.91,
                     1.91
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "14.0",
+                    "-14.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": -15.5
+        }
+    },
+    {
+        "team1": "Drake Bulldogs",
+        "team2": "South Dakota Coyotes",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
                 ],
                 "points": [
                     "-9.5",
@@ -409,8 +179,8 @@
             {
                 "name": "Bovada",
                 "odds": [
-                    1.87,
-                    1.95
+                    1.95,
+                    1.87
                 ],
                 "points": [
                     "-9.0",
@@ -429,7 +199,18 @@
                 ]
             },
             {
-                "name": "PointsBet (US)",
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-8.0",
+                    "8.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
                 "odds": [
                     1.91,
                     1.91
@@ -441,19 +222,62 @@
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "-8.0"
         }
     },
     {
-        "team1": "La Salle Explorers",
-        "team2": "St. John's Red Storm",
+        "team1": "James Madison Dukes",
+        "team2": "Norfolk St Spartans",
         "sites": [
             {
-                "name": "LowVig.ag",
+                "name": "GTbets",
                 "odds": [
-                    1.99,
-                    1.9
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-2.5",
+                    "2.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-1.5",
+                    "1.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "GTbets",
+            "point": "-2.5"
+        }
+    },
+    {
+        "team1": "Toledo Rockets",
+        "team2": "Xavier Musketeers",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "9.5",
+                    "-9.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
                 ],
                 "points": [
                     "9",
@@ -461,29 +285,7 @@
                 ]
             },
             {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.95,
-                    1.87
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "Bovada",
+                "name": "BetMGM",
                 "odds": [
                     1.91,
                     1.91
@@ -494,90 +296,46 @@
                 ]
             },
             {
+                "name": "Bovada",
+                "odds": [
+                    1.87,
+                    1.95
+                ],
+                "points": [
+                    "9.0",
+                    "-9.0"
+                ]
+            },
+            {
                 "name": "MyBookie.ag",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
+                    "9.0",
+                    "-9.0"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "Bovada",
+            "point": "9.0"
         }
     },
     {
-        "team1": "Nebraska Cornhuskers",
-        "team2": "Nevada Wolf Pack",
+        "team1": "James Madison Dukes",
+        "team2": "Weber State Wildcats",
         "sites": [
             {
-                "name": "LowVig.ag",
+                "name": "DraftKings",
                 "odds": [
                     1.89,
-                    2.01
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
                     1.92
                 ],
                 "points": [
-                    "-5",
-                    "5"
+                    "-2.5",
+                    "2.5"
                 ]
             },
             {
@@ -587,19 +345,40 @@
                     1.91
                 ],
                 "points": [
-                    "-5.0",
-                    "5.0"
+                    "-2.5",
+                    "2.5"
                 ]
             },
             {
                 "name": "MyBookie.ag",
                 "odds": [
-                    1.87,
-                    1.95
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "-4.5",
-                    "4.5"
+                    "-1.0",
+                    "1.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Troy Trojans",
+        "team2": "Western Carolina Catamounts",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "8.5",
+                    "-8.5"
                 ]
             },
             {
@@ -609,169 +388,8 @@
                     1.91
                 ],
                 "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-5.0",
-                    "5.0"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-5.0",
-                    "5.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-5.0",
-                    "5.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "-5.0",
-                    "5.0"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-5.0",
-                    "5.0"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "VCU Rams",
-        "team2": "West Virginia Mountaineers",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "10.5",
-                    "-10.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "10.5",
-                    "-10.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "10.5",
-                    "-10.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "10.5",
-                    "-10.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "North Carolina A&T Aggies",
-        "team2": "Ohio Bobcats",
-        "sites": [],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Oakland Golden Grizzlies",
-        "team2": "Toledo Rockets",
-        "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    2.09,
-                    1.82
-                ],
-                "points": [
-                    "9.5",
-                    "-9.5"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.95,
-                    1.87
-                ],
-                "points": [
-                    "10.0",
-                    "-10.0"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "10",
-                    "-10"
+                    "8.5",
+                    "-8.5"
                 ]
             },
             {
@@ -781,86 +399,42 @@
                     1.87
                 ],
                 "points": [
-                    "10.0",
-                    "-10.0"
+                    "8.5",
+                    "-8.5"
                 ]
             },
             {
                 "name": "MyBookie.ag",
                 "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "10.0",
-                    "-10.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "10.0",
-                    "-10.0"
+                    "8.5",
+                    "-8.5"
                 ]
             },
             {
                 "name": "DraftKings",
                 "odds": [
-                    1.91,
+                    1.92,
                     1.91
                 ],
                 "points": [
-                    "10.0",
-                    "-10.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "10.0",
-                    "-10.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "10.0",
-                    "-10.0"
+                    "8.5",
+                    "-8.5"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "-8.5"
         }
     },
     {
-        "team1": "San Francisco Dons",
-        "team2": "Towson Tigers",
+        "team1": "Florida Atlantic Owls",
+        "team2": "Jacksonville St Gamecocks",
         "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.92,
-                    1.97
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
             {
                 "name": "GTbets",
                 "odds": [
@@ -868,30 +442,8 @@
                     1.92
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.95,
-                    1.87
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
+                    "-3.5",
+                    "3.5"
                 ]
             },
             {
@@ -901,159 +453,19 @@
                     2
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "North Carolina Central Eagles",
-        "team2": "Southern Jaguars",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "2.5",
-                    "-2.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Auburn Tigers",
-        "team2": "Saint Joseph's Hawks",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
+                    "-4.5",
+                    "4.5"
                 ]
             },
             {
                 "name": "Bovada",
                 "odds": [
-                    1.91,
-                    1.91
+                    1.83,
+                    2
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Auburn Tigers",
-        "team2": "Wichita St Shockers",
-        "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.9,
-                    1.99
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "-7.5",
-                    "7.5"
+                    "-3.0",
+                    "3.0"
                 ]
             },
             {
@@ -1063,21 +475,126 @@
                     1.91
                 ],
                 "points": [
-                    "-8.0",
-                    "8.0"
+                    "-3.5",
+                    "3.5"
                 ]
             },
             {
-                "name": "SugarHouse",
+                "name": "DraftKings",
+                "odds": [
+                    1.89,
+                    1.93
+                ],
+                "points": [
+                    "-3.5",
+                    "3.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "4.5"
+        }
+    },
+    {
+        "team1": "Evansville Purple Aces",
+        "team2": "Prairie View Panthers",
+        "sites": [],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Illinois Fighting Illini",
+        "team2": "Ohio Bobcats",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-16.5",
+                    "16.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
+                    "-17.5",
+                    "17.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-17.5"
+        }
+    },
+    {
+        "team1": "Evansville Purple Aces",
+        "team2": "North Carolina A&T Aggies",
+        "sites": [
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "2.0",
+                    "-2.0"
                 ]
             },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "1.5",
+                    "-1.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "1.5",
+                    "-1.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "1.5",
+                    "-1.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": "-1.5"
+        }
+    },
+    {
+        "team1": "Western Kentucky Hilltoppers",
+        "team2": "West Virginia Mountaineers",
+        "sites": [
             {
                 "name": "DraftKings",
                 "odds": [
@@ -1085,108 +602,64 @@
                     1.91
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
+                    "6.5",
+                    "-6.5"
                 ]
             },
             {
-                "name": "BetRivers",
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "7",
+                    "-7"
+                ]
+            },
+            {
+                "name": "BetMGM",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "-7.5",
-                    "7.5"
+                    "7.5",
+                    "-7.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.87,
+                    1.95
+                ],
+                "points": [
+                    "7.5",
+                    "-7.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "7.0",
+                    "-7.0"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "7.5"
         }
     },
     {
         "team1": "Belmont Bruins",
-        "team2": "Howard Bison",
+        "team2": "George Mason Patriots",
         "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.9,
-                    1.99
-                ],
-                "points": [
-                    "-14.5",
-                    "14.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "-14",
-                    "14"
-                ]
-            },
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-13.5",
-                    "13.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-14.0",
-                    "14.0"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-14.0",
-                    "14.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-14.0",
-                    "14.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-14.0",
-                    "14.0"
-                ]
-            },
             {
                 "name": "Bovada",
                 "odds": [
@@ -1194,8 +667,30 @@
                     1.87
                 ],
                 "points": [
-                    "-14.5",
-                    "14.5"
+                    "-3.5",
+                    "3.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.89
+                ],
+                "points": [
+                    "-3.0",
+                    "3.0"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-3",
+                    "3"
                 ]
             },
             {
@@ -1205,160 +700,204 @@
                     1.91
                 ],
                 "points": [
-                    "-14.5",
-                    "14.5"
+                    "-3.0",
+                    "3.0"
                 ]
             },
             {
-                "name": "PointsBet (US)",
+                "name": "BetMGM",
                 "odds": [
-                    1.87,
-                    1.95
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "-14.0",
-                    "14.0"
+                    "-3.0",
+                    "3.0"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "-3.0"
         }
     },
     {
-        "team1": "Northern Iowa Panthers",
+        "team1": "Sam Houston St Bearkats",
+        "team2": "Texas Tech Red Raiders",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "29.5",
+                    "-29.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "29.5",
+                    "-29.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "30.5",
+                    "-30.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-30.5"
+        }
+    },
+    {
+        "team1": "Incarnate Word Cardinals",
+        "team2": "Rice Owls",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "5.5",
+                    "-5.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "5.5",
+                    "-5.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "5.5",
+                    "-5.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "6.0",
+                    "-6.0"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "5.5",
+                    "-5.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-6.0"
+        }
+    },
+    {
+        "team1": "Lamar Cardinals",
+        "team2": "Tulane Green Wave",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "7",
+                    "-7"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "7.0",
+                    "-7.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "7.0",
+                    "-7.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "6.5",
+                    "-6.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "7.0",
+                    "-7.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-7.0"
+        }
+    },
+    {
+        "team1": "Kansas Jayhawks",
         "team2": "Saint Joseph's Hawks",
-        "sites": [],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Northern Iowa Panthers",
-        "team2": "Saint Mary's Gaels",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "-1.0",
-                    "1.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "-1.0",
-                    "1.0"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "-1.0",
-                    "1.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "-1.0",
-                    "1.0"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Liberty Flames",
-        "team2": "Mississippi St Bulldogs",
-        "sites": [
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.93,
-                    1.89
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.93,
-                    1.89
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.93,
-                    1.89
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.94,
-                    1.94
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
             {
                 "name": "Bovada",
                 "odds": [
@@ -1366,324 +905,29 @@
                     1.91
                 ],
                 "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
+                    "-19.5",
+                    "19.5"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "Bovada",
+            "point": "19.5"
         }
     },
     {
-        "team1": "Boston College Eagles",
-        "team2": "Rhode Island Rams",
+        "team1": "Abilene Christian Wildcats",
+        "team2": "Austin Peay Governors",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.85,
-                    1.9
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.88,
-                    1.93
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.9,
-                    1.99
-                ],
-                "points": [
-                    "0",
-                    "0"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
-                    1.88,
-                    1.93
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.88,
-                    1.93
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
+                    1.89,
                     1.92
-                ],
-                "points": [
-                    "0",
-                    "0"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "0.0",
-                    "0.0"
-                ]
-            },
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.8,
-                    2.05
                 ],
                 "points": [
                     "1.0",
                     "-1.0"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "0.0",
-                    "0.0"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "LSU Tigers",
-        "team2": "SIU-Edwardsville Cougars",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.88
-                ],
-                "points": [
-                    "-29.5",
-                    "29.5"
-                ]
-            },
-            {
-                "name": "BetMGM",
-                "odds": [
-                    1.83,
-                    2
-                ],
-                "points": [
-                    "-28.5",
-                    "28.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-29.5",
-                    "29.5"
-                ]
-            },
-            {
-                "name": "GTbets",
-                "odds": [
-                    1.92,
-                    1.92
-                ],
-                "points": [
-                    "-29",
-                    "29"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-29.5",
-                    "29.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-29.5",
-                    "29.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-29.5",
-                    "29.5"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "-29.0",
-                    "29.0"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "-29.0",
-                    "29.0"
-                ]
-            },
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.89,
-                    2
-                ],
-                "points": [
-                    "-29",
-                    "29"
-                ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "South Dakota St Jackrabbits",
-        "team2": "Utah State Aggies",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.87
-                ],
-                "points": [
-                    "1.5",
-                    "-1.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.91
-                ],
-                "points": [
-                    "1.5",
-                    "-1.5"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.92,
-                    1.91
-                ],
-                "points": [
-                    "1.5",
-                    "-1.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.91
-                ],
-                "points": [
-                    "1.5",
-                    "-1.5"
                 ]
             },
             {
@@ -1698,18 +942,18 @@
                 ]
             },
             {
-                "name": "BetMGM",
+                "name": "MyBookie.ag",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "2.5",
-                    "-2.5"
+                    "-1.0",
+                    "1.0"
                 ]
             },
             {
-                "name": "PointsBet (US)",
+                "name": "Bovada",
                 "odds": [
                     1.91,
                     1.91
@@ -1718,26 +962,37 @@
                     "2.0",
                     "-2.0"
                 ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-1.5",
+                    "1.5"
+                ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "1.5"
         }
     },
     {
-        "team1": "Miss Valley St Delta Devils",
-        "team2": "North Texas Mean Green",
+        "team1": "Kansas Jayhawks",
+        "team2": "Wichita St Shockers",
         "sites": [
             {
-                "name": "LowVig.ag",
+                "name": "DraftKings",
                 "odds": [
-                    1.94,
-                    1.94
+                    1.91,
+                    1.92
                 ],
                 "points": [
-                    "34.5",
-                    "-34.5"
+                    "-19.5",
+                    "19.5"
                 ]
             },
             {
@@ -1747,8 +1002,8 @@
                     1.92
                 ],
                 "points": [
-                    "35",
-                    "-35"
+                    "-19.5",
+                    "19.5"
                 ]
             },
             {
@@ -1758,152 +1013,74 @@
                     1.91
                 ],
                 "points": [
-                    "35.0",
-                    "-35.0"
+                    "-19.5",
+                    "19.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Boise State Broncos",
+        "team2": "Houston Cougars",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "11.5",
+                    "-11.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "11.5",
+                    "-11.5"
                 ]
             },
             {
                 "name": "BetMGM",
                 "odds": [
-                    2,
-                    1.83
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "33.5",
-                    "-33.5"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "35.0",
-                    "-35.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "35.0",
-                    "-35.0"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "35.0",
-                    "-35.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "35.0",
-                    "-35.0"
+                    "11.5",
+                    "-11.5"
                 ]
             },
             {
                 "name": "DraftKings",
                 "odds": [
-                    1.92,
-                    1.89
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "35.0",
-                    "-35.0"
-                ]
-            },
-            {
-                "name": "PointsBet (US)",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "35.0",
-                    "-35.0"
+                    "11.5",
+                    "-11.5"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point":  "11.5"
         }
     },
     {
-        "team1": "Clemson Tigers",
-        "team2": "Purdue Boilermakers",
+        "team1": "Pepperdine Waves",
+        "team2": "UCLA Bruins",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.94,
-                    1.94
-                ],
-                "points": [
-                    "0",
-                    "0"
-                ]
-            },
-            {
-                "name": "DraftKings",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
             {
                 "name": "GTbets",
                 "odds": [
@@ -1911,30 +1088,8 @@
                     1.92
                 ],
                 "points": [
-                    "-1",
-                    "1"
-                ]
-            },
-            {
-                "name": "Bovada",
-                "odds": [
-                    1.87,
-                    1.95
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "MyBookie.ag",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "0.0",
-                    "0.0"
+                    "7.5",
+                    "-7.5"
                 ]
             },
             {
@@ -1944,42 +1099,42 @@
                     2
                 ],
                 "points": [
-                    "-1.5",
-                    "1.5"
+                    "7.5",
+                    "-7.5"
                 ]
             },
             {
-                "name": "PointsBet (US)",
+                "name": "MyBookie.ag",
                 "odds": [
-                    1.95,
-                    1.87
+                    1.91,
+                    1.91
                 ],
                 "points": [
-                    "-1.0",
-                    "1.0"
+                    "7.5",
+                    "-7.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "7.5",
+                    "-7.5"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "7.5"
         }
     },
     {
-        "team1": "BYU Cougars",
-        "team2": "New Orleans Privateers",
+        "team1": "Bryant Bulldogs",
+        "team2": "Syracuse Orange",
         "sites": [
-            {
-                "name": "LowVig.ag",
-                "odds": [
-                    1.9,
-                    1.99
-                ],
-                "points": [
-                    "-20",
-                    "20"
-                ]
-            },
             {
                 "name": "GTbets",
                 "odds": [
@@ -1987,52 +1142,41 @@
                     1.92
                 ],
                 "points": [
-                    "-19.5",
-                    "19.5"
+                    "22.5",
+                    "-22.5"
                 ]
             },
             {
-                "name": "SugarHouse",
+                "name": "Bovada",
                 "odds": [
                     1.91,
-                    1.92
+                    1.91
                 ],
                 "points": [
-                    "-19.5",
-                    "19.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.92
-                ],
-                "points": [
-                    "-19.5",
-                    "19.5"
-                ]
-            },
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-19.5",
-                    "19.5"
+                    "22.5",
+                    "-22.5"
                 ]
             },
             {
                 "name": "DraftKings",
                 "odds": [
-                    1.91,
-                    1.92
+                    1.92,
+                    1.91
                 ],
                 "points": [
-                    "-19.5",
-                    "19.5"
+                    "23.0",
+                    "-23.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "22.5",
+                    "-22.5"
                 ]
             },
             {
@@ -2042,12 +1186,619 @@
                     1.95
                 ],
                 "points": [
+                    "23.0",
+                    "-23.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-22.5"
+        }
+    },
+    {
+        "team1": "Maryland Terrapins",
+        "team2": "Navy Midshipmen",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-16.5",
+                    "16.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-16.5",
+                    "16.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-16.5",
+                    "16.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-17.5",
+                    "17.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-16.5",
+                    "16.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name":  "Bovada",
+            "point": "-16.5"
+        }
+    },
+    {
+        "team1": "Bradley Braves",
+        "team2": "Oakland Golden Grizzlies",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-13.5",
+                    "13.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-13.5",
+                    "13.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-13.5",
+                    "13.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-13.0",
+                    "13.0"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.95,
+                    1.87
+                ],
+                "points": [
+                    "-13.5",
+                    "13.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-13.5"
+        }
+    },
+    {
+        "team1": "UNC Asheville Bulldogs",
+        "team2": "UNC Wilmington Seahawks",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.88,
+                    1.96
+                ],
+                "points": [
+                    "-7",
+                    "7"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.8,
+                    2.05
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-6.5",
+                    "6.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-6.5"
+        }
+    },
+    {
+        "team1": "Louisville Cardinals",
+        "team2": "Seton Hall Pirates",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "5.5"
+        }
+    },
+    {
+        "team1": "Santa Clara Broncos",
+        "team2": "UC Davis Aggies",
+        "sites": [
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "7.5"
+        }
+    },
+    {
+        "team1": "La Salle Explorers",
+        "team2": "Saint Peter's Peacocks",
+        "sites": [],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Northern Iowa Panthers",
+        "team2": "Utah State Aggies",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.89,
+                    1.92
+                ],
+                "points": [
+                    "-2.5",
+                    "2.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-3",
+                    "3"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-2.5",
+                    "2.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-2.5"
+        }
+    },
+    {
+        "team1": "Arkansas St Red Wolves",
+        "team2": "Marshall Thundering Herd",
+        "sites": [
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "14.0",
+                    "-14.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "13.5",
+                    "-13.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "13.5",
+                    "-13.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "14",
+                    "-14"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "13.5",
+                    "-13.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-13.5"
+        }
+    },
+    {
+        "team1": "La Salle Explorers",
+        "team2": "Saint Joseph's Hawks",
+        "sites": [],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Chicago St Cougars",
+        "team2": "North Carolina A&T Aggies",
+        "sites": [
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "11.5",
+                    "-11.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "11.5",
+                    "-11.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "GTbets",
+            "point": "-11.5"
+        }
+    },
+    {
+        "team1": "Buffalo Bulls",
+        "team2": "Towson Tigers",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-6.0",
+                    "6.0"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-6.5",
+                    "6.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-6.0",
+                    "6.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": "-6.0"
+        }
+    },
+    {
+        "team1": "Arizona Wildcats",
+        "team2": "Grambling St Tigers",
+        "sites": [],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Iowa Hawkeyes",
+        "team2": "Southern Jaguars",
+        "sites": [],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "Charleston Southern Buccaneers",
+        "team2": "Iowa Hawkeyes",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "26.5",
+                    "-26.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": "26.5"
+        }
+    },
+    {
+        "team1": "Northern Arizona Lumberjacks",
+        "team2": "Penn State Nittany Lions",
+        "sites": [
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-27.0",
+                    "27.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
+        "team1": "NC State Wolfpack",
+        "team2": "North Florida Ospreys",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-20.5",
+                    "20.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-20.5",
+                    "20.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
                     "-20.0",
                     "20.0"
                 ]
             },
             {
-                "name": "PointsBet (US)",
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-20.5",
+                    "20.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
                 "odds": [
                     1.91,
                     1.91
@@ -2059,25 +1810,218 @@
             }
         ],
         "choice": {
+            "name": "Bovada",
+            "point": "-20.5"
+        }
+    },
+    {
+        "team1": "Morehead St Eagles",
+        "team2": "Richmond Spiders",
+        "sites": [
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.95,
+                    1.87
+                ],
+                "points": [
+                    "20.5",
+                    "-20.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "20.5",
+                    "-20.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": "-20.5"
+        }
+    },
+    {
+        "team1": "Saint Mary's Gaels",
+        "team2": "South Dakota St Jackrabbits",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "1.5",
+                    "-1.5"
+                ]
+            }
+        ],
+        "choice": {
             "name": "",
             "point": 0
         }
     },
     {
-        "team1": "Arizona St Sun Devils",
-        "team2": "Villanova Wildcats",
+        "team1": "Valparaiso Crusaders",
+        "team2": "Vanderbilt Commodores",
         "sites": [
             {
-                "name": "Unibet",
+                "name": "GTbets",
                 "odds": [
-                    1.88,
-                    1.86
+                    1.92,
+                    1.92
                 ],
                 "points": [
-                    "5.0",
-                    "-5.0"
+                    "6",
+                    "-6"
                 ]
             },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "6.0",
+                    "-6.0"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "6.0",
+                    "-6.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "6.0",
+                    "-6.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    2,
+                    1.83
+                ],
+                "points": [
+                    "5.5",
+                    "-5.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-6.0"
+        }
+    },
+    {
+        "team1": "San Diego St Aztecs",
+        "team2": "UC Irvine Anteaters",
+        "sites": [
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.83,
+                    2
+                ],
+                "points": [
+                    "-13.5",
+                    "13.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-13.0",
+                    "13.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "DraftKings",
+            "point": "-13.0"
+        }
+    },
+    {
+        "team1": "Arkansas-Little Rock Trojans",
+        "team2": "UNC Greensboro Spartans",
+        "sites": [
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "4.5",
+                    "-4.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "3.0",
+                    "-3.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "4.0",
+                    "-4.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.93,
+                    1.89
+                ],
+                "points": [
+                    "4.0",
+                    "-4.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-3.0"
+        }
+    },
+    {
+        "team1": "Idaho State Bengals",
+        "team2": "Nicholls St Colonels",
+        "sites": [
             {
                 "name": "GTbets",
                 "odds": [
@@ -2088,50 +2032,493 @@
                     "5",
                     "-5"
                 ]
-            }
-        ],
-        "choice": {
-            "name": "",
-            "point": 0
-        }
-    },
-    {
-        "team1": "Auburn Tigers",
-        "team2": "Gonzaga Bulldogs",
-        "sites": [
+            },
             {
-                "name": "Unibet",
+                "name": "Bovada",
                 "odds": [
-                    1.87,
+                    1.95,
                     1.87
                 ],
                 "points": [
-                    "12.5",
-                    "-12.5"
+                    "5.0",
+                    "-5.0"
                 ]
             },
             {
-                "name": "BetRivers",
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.89
+                ],
+                "points": [
+                    "5.0",
+                    "-5.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "12.5",
-                    "-12.5"
+                    "5.0",
+                    "-5.0"
                 ]
             },
             {
-                "name": "SugarHouse",
+                "name": "MyBookie.ag",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "12.5",
-                    "-12.5"
+                    "5.0",
+                    "-5.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-5.0"
+        }
+    },
+    {
+        "team1": "Longwood Lancers",
+        "team2": "Wake Forest Demon Deacons",
+        "sites": [
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "17.0",
+                    "-17.0"
                 ]
             },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "18.5",
+                    "-18.5"
+                ]
+            },
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "17",
+                    "-17"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "17.0",
+                    "-17.0"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "17.0",
+                    "-17.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-17.0"
+        }
+    },
+    {
+        "team1": "Fairleigh Dickinson Knights",
+        "team2": "Rutgers Scarlet Knights",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "22.5",
+                    "-22.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "22.5",
+                    "-22.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "22.5",
+                    "-22.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-22.5"
+        }
+    },
+    {
+        "team1": "Eastern Illinois Panthers",
+        "team2": "Marquette Golden Eagles",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "14.5",
+                    "-14.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-14.5"
+        }
+    },
+    {
+        "team1": "Louisiana Tech Bulldogs",
+        "team2": "UT-Arlington Mavericks",
+        "sites": [
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.83,
+                    2
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-6.0",
+                    "6.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-6.0"
+        }
+    },
+    {
+        "team1": "Georgia Tech Yellow Jackets",
+        "team2": "Mercer Bears",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.96,
+                    1.88
+                ],
+                "points": [
+                    "-12.5",
+                    "12.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    2,
+                    1.83
+                ],
+                "points": [
+                    "-12.5",
+                    "12.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.87,
+                    1.95
+                ],
+                "points": [
+                    "-11.5",
+                    "11.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.95,
+                    1.87
+                ],
+                "points": [
+                    "-12.5",
+                    "12.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.92
+                ],
+                "points": [
+                    "-12.0",
+                    "12.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "12.5"
+        }
+    },
+    {
+        "team1": "Hartford Hawks",
+        "team2": "UConn Huskies",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "21.5",
+                    "-21.5"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "22.0",
+                    "-22.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "21.5",
+                    "-21.5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "22.0",
+                    "-22.0"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "21.5",
+                    "-21.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "Bovada",
+            "point": "-22.0"
+        }
+    },
+    {
+        "team1": "Colorado Buffaloes",
+        "team2": "Kansas St Wildcats",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "-5",
+                    "5"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.95,
+                    1.87
+                ],
+                "points": [
+                    "-5.5",
+                    "5.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.89,
+                    1.92
+                ],
+                "points": [
+                    "-5.0",
+                    "5.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "BetMGM",
+            "point": "-5.5"
+        }
+    },
+    {
+        "team1": "Arkansas-Pine Bluff Golden Lions",
+        "team2": "Wisconsin Badgers",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "34",
+                    "-34"
+                ]
+            },
+            {
+                "name": "Bovada",
+                "odds": [
+                    1.83,
+                    2
+                ],
+                "points": [
+                    "34.5",
+                    "-34.5"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.92,
+                    1.91
+                ],
+                "points": [
+                    "34.5",
+                    "-34.5"
+                ]
+            },
+            {
+                "name": "MyBookie.ag",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "34.0",
+                    "-34.0"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "MyBookie.ag",
+            "point": "-34.0"
+        }
+    },
+    {
+        "team1": "Memphis Tigers",
+        "team2": "VCU Rams",
+        "sites": [
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2139,62 +2526,63 @@
                     1.91
                 ],
                 "points": [
-                    "12.5",
-                    "-12.5"
+                    "-6.5",
+                    "6.5"
                 ]
             }
         ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "DraftKings",
+            "point": "-6.5"
         }
     },
     {
-        "team1": "Arkansas-Pine Bluff Golden Lions",
-        "team2": "Wisconsin Badgers",
-        "sites": [],
+        "team1": "Fresno St Bulldogs",
+        "team2": "Pacific Tigers",
+        "sites": [
+            {
+                "name": "GTbets",
+                "odds": [
+                    1.92,
+                    1.92
+                ],
+                "points": [
+                    "4",
+                    "-4"
+                ]
+            },
+            {
+                "name": "BetMGM",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "4.0",
+                    "-4.0"
+                ]
+            },
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.93,
+                    1.89
+                ],
+                "points": [
+                    "4.0",
+                    "-4.0"
+                ]
+            }
+        ],
         "choice": {
-            "name": "",
-            "point": 0
+            "name": "BetMGM",
+            "point": "4.0"
         }
     },
     {
         "team1": "Kansas Jayhawks",
         "team2": "Kentucky Wildcats",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "1.0",
-                    "-1.0"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2217,39 +2605,6 @@
         "team2": "Wisconsin Badgers",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.91,
@@ -2271,47 +2626,14 @@
         "team2": "Villanova Wildcats",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "6.0",
-                    "-6.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "6.0",
-                    "-6.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "6.0",
-                    "-6.0"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.91,
                     1.91
                 ],
                 "points": [
-                    "6.0",
-                    "-6.0"
+                    "8.0",
+                    "-8.0"
                 ]
             }
         ],
@@ -2325,47 +2647,14 @@
         "team2": "Kansas Jayhawks",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.89,
-                    1.86
-                ],
-                "points": [
-                    "4.0",
-                    "-4.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.88
-                ],
-                "points": [
-                    "4.0",
-                    "-4.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.88
-                ],
-                "points": [
-                    "4.0",
-                    "-4.0"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.92,
-                    1.88
+                    1.89
                 ],
                 "points": [
-                    "4.0",
-                    "-4.0"
+                    "4.5",
+                    "-4.5"
                 ]
             }
         ],
@@ -2378,39 +2667,6 @@
         "team1": "Iowa Hawkeyes",
         "team2": "North Carolina Tar Heels",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2431,19 +2687,7 @@
     {
         "team1": "Duke Blue Devils",
         "team2": "Illinois Fighting Illini",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "-2.0",
-                    "2.0"
-                ]
-            }
-        ],
+        "sites": [],
         "choice": {
             "name": "",
             "point": 0
@@ -2453,39 +2697,6 @@
         "team1": "Louisville Cardinals",
         "team2": "Wisconsin Badgers",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "8.0",
-                    "-8.0"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2508,39 +2719,6 @@
         "team2": "Texas Tech Red Raiders",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.89
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.88,
@@ -2562,47 +2740,14 @@
         "team2": "Iowa Hawkeyes",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.88
-                ],
-                "points": [
-                    "-3.0",
-                    "3.0"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-3.0",
-                    "3.0"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-3.0",
-                    "3.0"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
-                    1.89,
+                    1.88,
                     1.92
                 ],
                 "points": [
-                    "-3.0",
-                    "3.0"
+                    "-4.0",
+                    "4.0"
                 ]
             }
         ],
@@ -2616,39 +2761,6 @@
         "team2": "Ohio State Buckeyes",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.89
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.89,
-                    1.92
-                ],
-                "points": [
-                    "-4.5",
-                    "4.5"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.89,
@@ -2666,42 +2778,30 @@
         }
     },
     {
+        "team1": "Kentucky Wildcats",
+        "team2": "UCLA Bruins",
+        "sites": [
+            {
+                "name": "DraftKings",
+                "odds": [
+                    1.91,
+                    1.91
+                ],
+                "points": [
+                    "-7.5",
+                    "7.5"
+                ]
+            }
+        ],
+        "choice": {
+            "name": "",
+            "point": 0
+        }
+    },
+    {
         "team1": "Villanova Wildcats",
         "team2": "Virginia Cavaliers",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "-0.5",
-                    "0.5"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2724,39 +2824,6 @@
         "team2": "West Virginia Mountaineers",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.89
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.88,
-                    1.92
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.88,
@@ -2776,19 +2843,7 @@
     {
         "team1": "Duke Blue Devils",
         "team2": "Florida St Seminoles",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "-6.5",
-                    "6.5"
-                ]
-            }
-        ],
+        "sites": [],
         "choice": {
             "name": "",
             "point": 0
@@ -2798,39 +2853,6 @@
         "team1": "Florida St Seminoles",
         "team2": "North Carolina Tar Heels",
         "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.89,
-                    1.86
-                ],
-                "points": [
-                    "3.5",
-                    "-3.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.88
-                ],
-                "points": [
-                    "3.5",
-                    "-3.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.88
-                ],
-                "points": [
-                    "3.5",
-                    "-3.5"
-                ]
-            },
             {
                 "name": "DraftKings",
                 "odds": [
@@ -2851,19 +2873,7 @@
     {
         "team1": "Duke Blue Devils",
         "team2": "North Carolina Tar Heels",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.86,
-                    1.89
-                ],
-                "points": [
-                    "-3.5",
-                    "3.5"
-                ]
-            }
-        ],
+        "sites": [],
         "choice": {
             "name": "",
             "point": 0
@@ -2874,39 +2884,6 @@
         "team2": "Virginia Cavaliers",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.92,
-                    1.89
-                ],
-                "points": [
-                    "4.5",
-                    "-4.5"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.92,
@@ -2928,39 +2905,6 @@
         "team2": "Virginia Cavaliers",
         "sites": [
             {
-                "name": "Unibet",
-                "odds": [
-                    1.87,
-                    1.87
-                ],
-                "points": [
-                    "5.5",
-                    "-5.5"
-                ]
-            },
-            {
-                "name": "BetRivers",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "5.5",
-                    "-5.5"
-                ]
-            },
-            {
-                "name": "SugarHouse",
-                "odds": [
-                    1.91,
-                    1.91
-                ],
-                "points": [
-                    "5.5",
-                    "-5.5"
-                ]
-            },
-            {
                 "name": "DraftKings",
                 "odds": [
                     1.91,
@@ -2980,19 +2924,7 @@
     {
         "team1": "Duke Blue Devils",
         "team2": "Virginia Cavaliers",
-        "sites": [
-            {
-                "name": "Unibet",
-                "odds": [
-                    1.88,
-                    1.86
-                ],
-                "points": [
-                    "3.0",
-                    "-3.0"
-                ]
-            }
-        ],
+        "sites": [],
         "choice": {
             "name": "",
             "point": 0

@@ -14,8 +14,8 @@ function Line(props){
             return props.lineData.sites.map((data, index) => {
                 return (
                     <div className={`spread`} key={index}>
-                            <p className={checkIfPick(data.points[0], 'point')}>{addPlus(data.points[0])}</p>
-                            <p className={checkIfPick(data.points[1], 'point')}>{addPlus(data.points[1])}</p>
+                            <p className={checkIfPickData(data.name ,data.points[0], 'point')}>{addPlus(data.points[0])}</p>
+                            <p className={checkIfPickData(data.name, data.points[1], 'point')}>{addPlus(data.points[1])}</p>
                     </div>
                 );
            })
@@ -36,9 +36,17 @@ function Line(props){
     }
 
     function checkIfPick(el, key){
-        return el === props.lineData.choice[key] 
+        return el == props.lineData.choice[key] 
         ? 'selected'
         : '';
+    }
+    function checkIfPickData(name, el, key){
+        if(props.lineData.choice.name === name){
+            return el == props.lineData.choice[key] 
+            ? 'selected'
+            : '';
+        }
+  
     }
     return(
         <div className='line'>
