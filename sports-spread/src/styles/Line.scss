@@ -14,7 +14,7 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        overflow-x: scroll;
+        overflow-x: auto;
         .teams{
             align-self: flex-end;
             width: 25%;
@@ -230,7 +230,7 @@
 }
 @media screen and (min-width: 768px){
     .line{
-        height: 135px;
+        height: 160px;
         width: 100%;
         .line-container{
             height: 100%;
@@ -240,7 +240,8 @@
                 min-width: 185px;
                 max-width: 185px;
                 p{
-                    font-size: 1.1rem;
+                    font-size: 0.95rem;
+                    letter-spacing: 1px;
                 }
             }
     
@@ -266,7 +267,7 @@
 }
 @media screen and (min-width: 992px){
     .line{
-        height: 110px;
+        height: 135px;
         width: 100%;
         .line-container{
             height: 100%;
@@ -276,7 +277,7 @@
                 min-width: 150px;
                 max-width: 150px;
                 p{
-                    font-size: 0.85rem;
+                    font-size: 0.9rem;
                 }
             }
     
@@ -302,27 +303,27 @@
 }
 @media screen and (min-width: 1200px){
     .line{
-        height: 115px;
+        height: 160px;
         .line-container{
             .teams{
-                min-width: 175px;
-                max-width: 175px;
+                min-width: 190px;
+                max-width: 190px;
                 p{
-                    font-size: 0.9rem;
+                    font-size: 1.1rem;
                 }
             }
     
             .spread-container{
                 .names{    
                     h3{
-                        min-width: 105px;
-                        font-size: 1rem;
+                        min-width: 110px;
+                        font-size: 1.1rem;
                     }
                 }
     
                 .data{
                     .spread{
-                        min-width: 105px;
+                        min-width: 110px;
                         p{
                             font-size: 1.25rem;
                         }
