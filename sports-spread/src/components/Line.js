@@ -36,12 +36,14 @@ function Line(props){
     }
 
     function checkIfPick(el, key){
+        // eslint-disable-next-line
         return el == props.lineData.choice[key] 
         ? 'selected'
         : '';
     }
     function checkIfPickData(name, el, key){
         if(props.lineData.choice.name === name){
+            // eslint-disable-next-line
             return el == props.lineData.choice[key] 
             ? 'selected'
             : '';

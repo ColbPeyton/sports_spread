@@ -37,7 +37,8 @@
         }
         .btn-container{
             z-index: 2;
-            background-color: $primary-orange;
+            background-color: rgba(92, 91, 91, 0.801);
+            // background-color: $primary-orange;
 
             color: #fff;
             padding: 5px 15px;
@@ -50,16 +51,22 @@
                 text-transform: uppercase;
                 color: #fff;
 
+                &.construction{
+                    cursor: default;
+                    font-size: 1.25rem;
+
+                }
+
                 &:visited{
                     color: #fff;
                     text-decoration: none;
                 }
 
             }
-            &:hover{
-                background-color: $primary-orange-overlay;
+            // &:hover{
+            //     background-color: $primary-orange-overlay;
 
-            }
+            // }
             
         }
     }
@@ -72,7 +79,13 @@
             .btn-container{
                 font-size: 2rem;
                 width: 75%;   
-                max-width: 300px;                   
+                max-width: 300px;   
+                
+                .link.construction{
+                    cursor: default;
+                    font-size: 1.25rem;
+
+                }
             }
         }
     }
