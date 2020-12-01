@@ -9,9 +9,15 @@ function SignInPage(){
     const [password, setPassword] = useState('');
 
     const submit = () => {
-        axios.post('https://drhoops.net/', {user: user, password: password})
-        .then(() =>{
-            alert('success')
+        axios.post('https://drhoops.net/api/login', 
+        {user: user, password: password}
+        )
+        .then((res) =>{
+            console.log(res)
+        })
+        .catch((err)=>{
+            
+            console.log(err)
         })
     }
 

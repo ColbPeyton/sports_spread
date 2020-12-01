@@ -50,7 +50,7 @@ function App() {
         <Header routes={routes} width={width}/>
 
         <Switch>
-          <Route path='/sign-in' component={SignInPage} />
+          <Route path='/login' component={SignInPage} />
           <Route path='/update' component={UpdatePage} />
           <Route path='/record' component={RecordPage}/>
           <Route path='/picks' component={ChoicePage}/>

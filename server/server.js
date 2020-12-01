@@ -79,7 +79,7 @@ connectionDB.connect((err)=>{
 // connection.end()
 
 
-app.post('/', (request, response)=>{
+app.post('/api/login', (request, response)=>{
 
   
   const username = request.body.user;
