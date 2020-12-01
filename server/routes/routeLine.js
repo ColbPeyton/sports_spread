@@ -1,6 +1,6 @@
 import * as express from 'express';
 
-import DB, { connection } from './db';
+import DB, { connection } from '../db';
 
 const router = express.Router();
 

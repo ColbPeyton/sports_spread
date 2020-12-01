@@ -15,6 +15,8 @@ import RecordPage from './components/pages/ChoicePage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import SignInPage from './components/pages/SignInPage';
+import UpdatePage from './components/pages/UpdatePage';
 
 const routes = [
   <NavLink exact className='nav' activeClassName="selected" to="/">Home</NavLink>,
@@ -48,6 +50,8 @@ function App() {
         <Header routes={routes} width={width}/>
 
         <Switch>
+          <Route path='/sign-in' component={SignInPage} />
+          <Route path='/update' component={UpdatePage} />
           <Route path='/record' component={RecordPage}/>
           <Route path='/picks' component={ChoicePage}/>
           <Route path='/home' component={HomePage}/>
