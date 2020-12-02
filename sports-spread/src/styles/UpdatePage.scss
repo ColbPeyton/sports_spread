@@ -28,10 +28,12 @@
         .update-container{
             z-index: 5;
             width: 100%;
-            height: 10%;
+            height: 20%;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
+            flex-direction: column;
+            
 
             button{
                 background: $primary-orange;
@@ -40,6 +42,7 @@
                 font-size: 2rem;
                 color: #fff;
                 cursor: pointer;
+                border-radius: 10px;
 
                 &:hover{
                     background: $primary-orange-overlay;

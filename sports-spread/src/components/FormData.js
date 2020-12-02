@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React,{useState} from 'react';
 
 import '../styles/FormData.scss';
 
@@ -24,8 +24,9 @@ function FormData(props){
     }
 
     function renderOdds(){
+        // eslint-disable-next-line
         return props.formData.sites.map((site, index) => {
-            if(site.name == currentSite){
+            if(site.name === currentSite){
                 return site.points.map((s, i) => {
                     return <option key={i} value={s}>{s}</option>
 

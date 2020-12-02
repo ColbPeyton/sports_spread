@@ -14,7 +14,17 @@ function UpdatePage(){
         // console.log(currentData)
     })
 
-    async function updateData(){
+    function updateData(){
+        axios.post('https://drhoops.net/api/line', {data: true})
+        .then((res) => {
+            console.log(res);
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }
+
+    async function getData(){
         axios.get('https://drhoops.net/api/line/data')
         .then(async (res) => {
             return await res.data[0].line;
@@ -25,6 +35,22 @@ function UpdatePage(){
         .catch(err => {
             console.log(err)
         })
+    }
+    
+    async function sendData(){
+        const str = JSON.stringify(output);
+
+        await axios.post('https://drhoops.net/api/line/upload', 
+        {data: str}
+        )
+        .then((res) =>{
+            console.log(res)
+        })
+        .catch((err)=>{
+            
+            console.log(err)
+        })
+
     }
 
     function renderForm(){
@@ -47,17 +73,15 @@ function UpdatePage(){
     }
 
 
-    function sendData(){
-        const str = JSON.stringify(output);
-        console.log(str);
-    }
+
 
 
     return(
         <div className='update-page'>
             <div className='container'>
             <div className='update-container'>
-                <button onClick={updateData}>Update Data</button>
+                <button onClick={updateData}>Update Database</button>
+                <button onClick={getData}>Get Data</button>
             </div>
             
             <div className='form'>

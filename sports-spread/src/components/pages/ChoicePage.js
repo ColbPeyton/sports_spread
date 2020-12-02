@@ -1,13 +1,37 @@
-import React from 'react';
-
+import React,{useState, useEffect} from 'react';
+import axios from 'axios';
 import Line from '../Line';
-
-import data from '../../_data/gameData';
-
 
 import '../../styles/ChoicePage.scss';
 
 function ChoicePage(){
+
+    const [data, setData] = useState([])
+    const [lines, setLines] = useState('')
+
+    useEffect(()=>{
+        getData();
+    },[])
+
+    useEffect(()=>{
+        if(data.length > 1){
+            console.log('herer')
+            setLines(renderLines())
+        }
+    }, [data])
+
+    async function getData(){
+        await axios.get('https://drhoops.net/api/line/final')
+        .then(async (res) => {
+            return await res.data[0].data;
+        })
+        .then(res => {
+           setData( JSON.parse(res));
+        })
+        .catch(err => {
+            console.log(err)
+        })
+    }
 
     function renderLines(){
         return data.map((d, index) => {
@@ -22,12 +46,8 @@ function ChoicePage(){
                     <h3>Today's Picks</h3>
                 </div>
                 <div className='choice-container'>
-                    {renderLines()}
+                    {lines}
                 </div>
-
-                {/* <div className='record-container'>
-                    <h3>record</h3>
-                </div> */}
             </div>
             
         </div>
