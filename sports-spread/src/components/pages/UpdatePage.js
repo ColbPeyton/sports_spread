@@ -28,8 +28,8 @@ function UpdatePage(){
 
     function renderForm(){
         return currentData.map((d, index) => {
-            if(d.sites.length !== 0){
-                return <FormData formData={d} key={index} />
+            if(d.sites.length > 0){
+                return <FormData formData={d} key={index} index={index}/>
             }
         })
     }
