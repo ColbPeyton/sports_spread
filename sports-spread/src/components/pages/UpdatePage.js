@@ -1,23 +1,51 @@
-import Axios from 'axios';
-import React from 'react';
+import React,{useState, useEffect} from 'react';
 import axios from 'axios';
+import FormData from '../FormData';
 
 import '../../styles/UpdatePage.scss';
 
+
 function UpdatePage(){
-    function updatePage(){
-        axios.get('https://drhoops.net/api/line')
+
+    const [currentData, setCurrentData] = useState([]);
+
+    useEffect(()=>{
+        console.log(currentData)
+    })
+
+    async function updateData(){
+        axios.get('https://drhoops.net/api/line/data')
+        .then(async (res) => {
+            return await res.data[0].line;
+        })
         .then(res => {
-            console.log(res)
+            setCurrentData(JSON.parse(res));
         })
         .catch(err => {
             console.log(err)
         })
     }
+
+    function renderForm(){
+        return currentData.map((d, index) => {
+            if(d.sites.length !== 0){
+                return <FormData formData={d} key={index} />
+            }
+        })
+    }
+
     return(
         <div className='update-page'>
             <div className='container'>
-            <button onClick={updatePage}>UpdatePage</button>
+            <div className='update-container'>
+                <button onClick={updateData}>Update Data</button>
+            </div>
+            
+            <div className='form'>
+                {renderForm()}
+            </div>
+  
+            {/* {console.log(currentData)} */}
             </div>
         </div>
     )
