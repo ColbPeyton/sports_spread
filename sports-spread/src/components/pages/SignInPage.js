@@ -10,7 +10,7 @@ function SignInPage(){
 
     const submit = () => {
         axios.post('https://drhoops.net/api/login', 
-        {user: user, password: password}
+        {data: {user: user, password: password}}
         )
         .then((res) =>{
             console.log(res)
