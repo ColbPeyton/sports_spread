@@ -5,8 +5,8 @@ import '../styles/FormData.scss';
 function FormData(props){
 
     const [currentSite, setSite] = useState(props.formData.sites[0].name);
-    const [odds, setOdds] = useState('odds');
-
+    const [odds, setOdds] = useState(props.formData.sites[0].points[0]);
+    const [clicked, setClicked] = useState(false);
     function renderTeam(){
         return(
             <div className='teams'>
@@ -34,8 +34,23 @@ function FormData(props){
         })
     }
 
+    function sendData(){
+        setClicked(true);
+        props.sendBack(
+            {
+                team1: props.formData.team1,
+                team2: props.formData.team2,
+                sites: props.formData.sites,
+                choice: {
+                    name: currentSite,
+                    point: odds
+                }
+            }
+        )
+    }
+
     return(
-        <div className='form-data'>
+        <div className={`form-data ${clicked ? 'clicked' : ''}`}>
             <div className='form-container'>
                 {renderTeam()}
                 <div className='drop-down'>
@@ -49,7 +64,7 @@ function FormData(props){
                     </select>
                 </div>
                 <div className='btn'>
-                    {/* <button onClick={() => sendData()} */}
+                    <button onClick={() => sendData()}>Update</button>
                 </div>
             </div>
         </div>
