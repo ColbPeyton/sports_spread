@@ -15,7 +15,6 @@ function ChoicePage(){
 
     useEffect(()=>{
         if(data.length > 1){
-            console.log('herer')
             setLines(renderLines())
         }
     }, [data])

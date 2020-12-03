@@ -12,11 +12,13 @@ import HomePage from './components/pages/HomePage';
 import ChoicePage from './components/pages/ChoicePage';
 import RecordPage from './components/pages/ChoicePage';
 
+import ProtectedRoute from './components/ProtectedRoute';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 import SignInPage from './components/pages/SignInPage';
 import UpdatePage from './components/pages/UpdatePage';
+
 
 const routes = [
   <NavLink exact className='nav' activeClassName="selected" to="/">Home</NavLink>,
@@ -51,11 +53,12 @@ function App() {
 
         <Switch>
           <Route path='/login' component={SignInPage} />
-          <Route path='/update' component={UpdatePage} />
+          <ProtectedRoute exact path='/update' component={UpdatePage} />
           <Route path='/record' component={RecordPage}/>
           <Route path='/picks' component={ChoicePage}/>
           <Route path='/home' component={HomePage}/>
           <Route path='/' component={HomePage}/>
+          <Route path="*" component={HomePage} />
         </Switch>
         <Footer width={width} />
       </Router>

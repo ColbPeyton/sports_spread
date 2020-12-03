@@ -1,11 +1,12 @@
 import React,{useState, useEffect} from 'react';
 import axios from 'axios';
 import FormData from '../FormData';
+import auth from '../../auth';
 
 import '../../styles/UpdatePage.scss';
 
 
-function UpdatePage(){
+function UpdatePage(props){
 
     const [currentData, setCurrentData] = useState([]);
     const [output, setOutput] = useState([])
@@ -49,6 +50,10 @@ function UpdatePage(){
         .catch((err)=>{
             
             console.log(err)
+        })
+
+        auth.logout(()=>{
+            props.history.push('/picks');
         })
 
     }

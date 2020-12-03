@@ -1,9 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
+import auth from '../../auth';
+
 
 import '../../styles/SignInPage.scss';
 
-function SignInPage(){
+function SignInPage(props){
 
     const [user, setuser] = useState('');
     const [password, setPassword] = useState('');
@@ -13,7 +15,11 @@ function SignInPage(){
         {data: {user: user, password: password}}
         )
         .then((res) =>{
-            console.log(res)
+            if(res.data.code === 200){
+                auth.login(()=>{
+                    props.history.push("/update");
+                })
+            }
         })
         .catch((err)=>{
             
