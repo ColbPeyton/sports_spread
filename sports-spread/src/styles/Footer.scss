@@ -11,7 +11,7 @@
         height: 100%;
 
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-direction: column;
 
@@ -34,6 +34,10 @@
                 &:visited{
                     color: $primary-orange;
                 }
+                &:hover{
+                    color: $primary-orange-overlay;
+    
+                }
             }
         }
 
@@ -53,6 +57,10 @@
                 &:visited{
                     color: $primary-orange;
                 }
+                &:hover{
+                    color: $primary-orange-overlay;
+    
+                }
             }
         }
     }
@@ -60,17 +68,14 @@
 
 
 @media screen and (min-width: 768px){
-    
-}
-@media screen and (min-width: 992px){
     .footer{
         .footer-container{
             height: 25vh;
             max-height: 130px;
             .social{
+                height: 65%;
                 a{    
-                    font-size: 4rem;
-                    cursor: pointer;
+                    font-size: 3.75rem;
                 }
             }
             .dev{
@@ -79,6 +84,7 @@
         }
     }
 }
+
 @media screen and (min-width: 1200px){
    
 }
