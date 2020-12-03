@@ -31,11 +31,18 @@ function SignInPage(props){
         <div className='sign-in'>
             <div className='container'>
                 <div className='form'>
-                    <label>Username:</label>
-                    <input type='text' name='user' onChange={(e)=> setuser(e.target.value)} />
-                    <label>Password:</label>
-                    <input type='password' name='password' onChange={(e)=> setPassword(e.target.value)} />
-
+                    <div className='item-container'>
+                        <div className='item'>
+                            <label>Username:</label>
+                            <input type='text' name='user' onChange={(e)=> setuser(e.target.value)} />
+                        </div>
+                    </div>
+                    <div className='item-container'>
+                    <div className='item'>
+                        <label>Password:</label>
+                        <input type='password' name='password' onChange={(e)=> setPassword(e.target.value)} />
+                    </div>
+                    </div>
                     <button onClick={submit}>Submit</button>
                 </div>
             </div>
