@@ -4,7 +4,7 @@
 
 .form-data{
     width: 100%;
-    height: 50px;
+    height: 75px;
     margin: 0 auto;
 
     margin-bottom: 10px;
@@ -14,20 +14,49 @@
     color: $background-dark;
 
     .form-container{
-        width: 100%;
+        min-width: 100%;
+        max-width: 1200px;
         height: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-start;
         align-items: center;
+        overflow-x: auto;
 
         .teams{
-            width: 50%;
-            height: 100%;
-            text-align: left;
-        }
+            align-self: flex-end;
+            width: 25%;
+            min-width: 125px;
+            max-width: 125px;
+            height: 75%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 5px;
+            p{
+                font-size: 0.6rem;
+                width: 95%;
+                text-transform: uppercase;
+                font-weight: 600;
+                // padding: 2px 0;
+                max-height: 45%;
+                overflow-y: auto;
+                padding-bottom: 5px;
+                &:last-child{
+                    padding: 5px 0px 0px;
+                    border: none;
+                }
+            }
 
+            .sep{
+                width: 90%;
+                height: 1px;
+                background-color: $background-overlay;
+            }
+
+        }
         .drop-down{
-            width: 20%;
+            min-width: 110px;
             height: 100%;
             display: flex;
             justify-content: center;
@@ -41,6 +70,7 @@
                 border-radius: 5px;
                 color: #fff;
                 padding: 5px 10px;
+                margin-right: 2px;
 
                 &:hover{
                     background-color: $primary-orange-overlay;
@@ -60,6 +90,125 @@
                     background-color: $primary-blue-overlay;
                 }
             }
+        }
+    }
+}
+
+@media screen and (min-width: 350px){
+    .form-data{
+        height: 90px;
+        .form-container{
+            .teams{
+                min-width: 150px;
+                max-width: 150px;
+                p{
+                    font-size: 0.75rem;
+                }
+            }
+            .drop-down{
+                min-width: 125px;
+            }
+    
+            .btn{
+                button{
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }    
+    
+}
+@media screen and (min-width: 480px){
+    .form-data{
+        height: 100px;
+        .form-container{
+            .teams{
+                min-width: 175px;
+                max-width: 175px;
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+            .drop-down{
+                min-width: 125px;
+            }
+    
+        }
+    }    
+}
+
+
+@media screen and (min-width: 576px){
+    .form-data{
+        height: 100px;
+        .form-container{
+            .teams{
+                min-width: 185px;
+                max-width: 185px;
+                p{
+                    font-size: 1rem;
+                }
+            }
+            .drop-down{
+                min-width: 150px;
+            }
+    
+        }
+    }    
+}
+@media screen and (min-width: 768px){
+    .form-data{
+        height: 100px;
+        .form-container{
+            height: 100%;
+            min-width: 100%;
+            max-width: 325px;
+            .teams{
+                min-width: 185px;
+                max-width: 185px;
+                p{
+                    font-size: 1rem;
+                }
+            }
+            .drop-down{
+                min-width: 150px;
+            }
+    
+        }
+    }    
+}
+@media screen and (min-width: 992px){
+    .form-data{
+        height: 110px;
+        .form-container{
+            height: 100%;
+            min-width: 100%;
+            max-width: 325px;
+            .teams{
+                min-width: 185px;
+                max-width: 185px;
+                p{
+                    font-size: 0.95rem;
+                }
+            }
+            .drop-down{
+                min-width: 150px;
+            }
+    
+        }
+    }    
+}
+@media screen and (min-width: 1200px){
+   
+}
+@media(min-width: 568px) and (max-height: 414px){
+    .update-page{
+        &::after{
+            height: 160vh;
+        }
+        .update-container{
+            height: 160vh;
+  
         }
     }
 }

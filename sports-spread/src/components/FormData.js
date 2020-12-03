@@ -10,8 +10,9 @@ function FormData(props){
     function renderTeam(){
         return(
             <div className='teams'>
-                <h3>{props.formData.team1}</h3>
-                <h3>{props.formData.team2}</h3>
+                <p>{props.formData.team1}</p>
+                <div className='sep'></div>
+                <p>{props.formData.team2}</p>
             </div>
 
         )

@@ -134,6 +134,7 @@
 @media screen and (min-width: 576px){
     .sign-in{
         .container{
+            padding-top: $header-med;
             .form{
                 max-height: 235px;
     
@@ -156,7 +157,11 @@
 
 }
 @media screen and (min-width: 1200px){
-   
+    .sign-in{
+        .container{
+            padding-top: $header-large;
+        }
+    }
 }
 @media(min-width: 568px) and (max-height: 414px){
     .sign-in{
