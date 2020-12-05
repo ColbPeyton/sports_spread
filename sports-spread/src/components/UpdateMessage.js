@@ -9,22 +9,19 @@ function UpdateMessage(props){
 
     
     useEffect(()=>{
-        setActive(props.sidebar)
-     }, [props.sidebar]);
+        setActive(props.active)
+     }, [props.active]);
 
      useEffect(()=>{
          setTimeout(()=>{
              setActive(false);
-         }, 1000);
+         }, 3000);
      })
 
 
-
-     let animation = {animation: `${active ? "slideInTop" : "slideOutTop"} 0.5s forwards`};
-
     return(
-        <div className={`update-message ${active ? 'active' : 'not-active'}`} style={ animation}>
-            <div className='container'>
+        <div className={`update-message ${active ? 'active' : 'not-active'}`} style={ {animation: `${active ? "slideInTop" : "slideOutTop"} 0.5s forwards`}}>
+            <div className='message-container' style={{top: 0}}>
                 <p>{props.message}</p>
             </div>
         </div>

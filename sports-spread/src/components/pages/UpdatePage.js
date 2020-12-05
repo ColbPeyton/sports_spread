@@ -36,7 +36,7 @@ function UpdatePage(props){
     async function getData(){
         axios.get('https://drhoops.net/api/line/data')
         .then(async (res) => {
-            handleMessage('Data Pulled!');
+            handleMessage('Pulled Lines From Database!');
             return await res.data[0].line;
         })
         .then(res => {
@@ -95,13 +95,13 @@ function UpdatePage(props){
 
         setTimeout(() => {
             setMessageActive(false);
-        }, 2000);
+        }, 5000);
     }
 
     function renderMessage(){
         if(messageActive){
             return(
-                <UpdateMessage message={currMessage} /> 
+                <UpdateMessage message={currMessage} active={messageActive}/> 
             )
         }
         return ''
