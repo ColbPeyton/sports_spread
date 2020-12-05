@@ -6,10 +6,16 @@ import auth from '../../auth';
 import '../../styles/UpdatePage.scss';
 
 
+import UpdateMessage from '../UpdateMessage';
+
 function UpdatePage(props){
 
     const [currentData, setCurrentData] = useState([]);
     const [output, setOutput] = useState([])
+
+
+    const [messageActive, setMessageActive] = useState(false);
+    const [currMessage, setCurrMessage] = useState('');
 
     useEffect(()=>{
         // console.log(currentData)
@@ -19,6 +25,8 @@ function UpdatePage(props){
         axios.post('https://drhoops.net/api/line', {data: true})
         .then((res) => {
             console.log(res);
+            handleMessage('Database Updated!');
+
         })
         .catch(err => {
             console.log(err)
@@ -28,10 +36,12 @@ function UpdatePage(props){
     async function getData(){
         axios.get('https://drhoops.net/api/line/data')
         .then(async (res) => {
+            handleMessage('Data Pulled!');
             return await res.data[0].line;
         })
         .then(res => {
             setCurrentData(JSON.parse(res));
+
         })
         .catch(err => {
             console.log(err)
@@ -46,6 +56,8 @@ function UpdatePage(props){
         )
         .then((res) =>{
             console.log(res)
+            handleMessage('Data Sent!');
+
         })
         .catch((err)=>{
             
@@ -77,12 +89,32 @@ function UpdatePage(props){
         }
     }
 
+    function handleMessage(message){
+        setCurrMessage(message);
+        setMessageActive(true);
+
+        setTimeout(() => {
+            setMessageActive(false);
+        }, 2000);
+    }
+
+    function renderMessage(){
+        if(messageActive){
+            return(
+                <UpdateMessage message={currMessage} /> 
+            )
+        }
+        return ''
+        
+    }
+
 
 
 
 
     return(
         <div className='update-page'>
+            {renderMessage()}
             <div className='container'>
             <div className='update-container'>
                 <button onClick={updateData}>Update Database</button>
