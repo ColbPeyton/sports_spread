@@ -5,13 +5,13 @@ import '../../styles/HomePage.scss';
 
 import badge from '../../assets/icons/hoops_badge.png'
 function HomePage(){
-    // function underConstruction(){
-    //     return(
-    //         <NavLink exact className='link construction' disabled to='/'>
-    //             <p>Under Construction: Check Back Later!</p>
-    //         </NavLink>
-    //     )
-    // }
+    function underConstruction(){
+        return(
+            <NavLink exact className='link construction' disabled to='/'>
+                <p>Under Construction: Check Back Later!</p>
+            </NavLink>
+        )
+    }
 
     function originalPath(){
         return(
@@ -27,7 +27,7 @@ function HomePage(){
                     <img src={badge} alt='Dr.Hoops Badge' />
                 </div>
                 <div className='btn-container'>
-                    {originalPath()}
+                    {underConstruction()}
                 </div>
             </div>
         </div>
