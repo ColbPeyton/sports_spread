@@ -1,14 +1,12 @@
 import React from 'react';
 
-import '../styles/Loading.scss';
+import '../styles/Loading.scss'
 
-function Loading(props){
+
+function Loading(){
     return(
-        <div className='loading'>
-
-        </div>
-    )
+        <div className='loading'></div>
+    );
 }
-
 
 export default Loading;
