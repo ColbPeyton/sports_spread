@@ -51,12 +51,22 @@ function FormData(props){
         )
     }
 
+    // fixes issue with odds not correctly updating on site change
+    function updateSiteAndOdds(e){
+        setSite(e.target.value)
+        for(const site of props.formData.sites){
+            if(e.target.value === site.name){
+                setOdds(site.points[0]);
+            }
+        }
+    }
+
     return(
         <div className={`form-data ${clicked ? 'clicked' : ''}`}>
             <div className='form-container'>
                 {renderTeam()}
                 <div className='drop-down'>
-                    <select value={currentSite} onChange={(e)=>setSite(e.target.value)}>
+                    <select value={currentSite} onChange={(e)=>updateSiteAndOdds(e)}>
                         {renderSites()}
                     </select>
                 </div>

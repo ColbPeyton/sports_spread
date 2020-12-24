@@ -24,7 +24,6 @@ function UpdatePage(props){
     function updateData(){
         axios.post('https://drhoops.net/api/line', {data: true})
         .then((res) => {
-            console.log(res);
             handleMessage('Database Updated!');
 
         })
