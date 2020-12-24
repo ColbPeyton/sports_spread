@@ -16,7 +16,7 @@ function ChoicePage(){
     },[])
 
     useEffect(()=>{
-        if(data.length > 1){
+        if(data.length >= 1){
             setLines(renderLines())
         }
     }, [data])
@@ -28,7 +28,7 @@ function ChoicePage(){
         })
         .then(res => {
             setIsLoading(false);
-           setData( JSON.parse(res));
+            setData( JSON.parse(res));
         })
         .catch(err => {
             console.log(err)
@@ -41,6 +41,12 @@ function ChoicePage(){
         })
     }
 
+    function renderLoadingOrData(){
+        return isLoading
+        ? <Loading />
+        :lines
+    }
+
     return(
         <div className='choice-page'>
             <div className='choice-page-container'>
@@ -48,7 +54,7 @@ function ChoicePage(){
                     <h3>Today's Picks</h3>
                 </div>
                 <div className='choice-container'>
-                    {lines}
+                    {renderLoadingOrData()}
                 </div>
             </div>
             
